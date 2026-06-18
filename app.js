@@ -353,7 +353,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Line Chart Update
-        const years = ['2020', '2021', '2022', '2023', '2024', '2025'];
+        const years = ['2020', '2021', '2022', '2023', '2024'];
         const pubSp = [];
         const pubBen = [];
         years.forEach(yr => {

@@ -247,7 +247,6 @@ def load_nihb_data():
         2022: 30.49,
         2023: 29.50,
         2024: 28.50, # projected
-        2025: 27.50, # projected
     }
     
     annual_data = {
@@ -256,7 +255,6 @@ def load_nihb_data():
         2022: {"spending": 605.84, "beneficiaries": 559355},
         2023: {"spending": 648.60, "beneficiaries": 585116},
         2024: {"spending": 687.50, "beneficiaries": 596000},
-        2025: {"spending": 728.80, "beneficiaries": 608000},
     }
     
     nihb_combined = {}

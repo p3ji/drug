@@ -1,6 +1,6 @@
 {
   "pipeline_metadata": {
-    "last_updated": "2026-06-17T23:23:13.098360",
+    "last_updated": "2026-06-17T23:35:09.748744",
     "data_sources": {
       "drug_spending": "CIHI NPDUIS Data Tables - Table 3 (High Cost Drugs)",
       "plan_overview": "CIHI NPDUIS Data Tables - Table 1 (Prescribed Drug Spending)",
@@ -5136,11 +5136,6 @@
       "spending": 687.5,
       "beneficiaries": 596000,
       "claims_volume_millions": 28.5
-    },
-    "2025": {
-      "spending": 728.8,
-      "beneficiaries": 608000,
-      "claims_volume_millions": 27.5
     }
   }
 }
