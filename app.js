@@ -447,6 +447,13 @@ document.addEventListener('DOMContentLoaded', () => {
                                     }
                                     if (context.parsed.y !== null) {
                                         let val = context.parsed.y;
+                                        
+                                        // Calculate total for this year to get percentage
+                                        let total = 0;
+                                        context.chart.data.datasets.forEach(ds => {
+                                            total += ds.data[context.dataIndex] || 0;
+                                        });
+
                                         if (indicator === 'spending') {
                                             if (val >= 1000) {
                                                 label += '$' + (val / 1000).toFixed(2) + 'B';
@@ -459,6 +466,12 @@ document.addEventListener('DOMContentLoaded', () => {
                                             } else {
                                                 label += val.toLocaleString() + ' people';
                                             }
+                                        }
+                                        
+                                        // Append percentage
+                                        if (total > 0) {
+                                            let pct = ((val / total) * 100).toFixed(1);
+                                            label += ` (${pct}%)`;
                                         }
                                     }
                                     return label;
