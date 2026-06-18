@@ -1,0 +1,5146 @@
+{
+  "pipeline_metadata": {
+    "last_updated": "2026-06-17T23:23:13.098360",
+    "data_sources": {
+      "drug_spending": "CIHI NPDUIS Data Tables - Table 3 (High Cost Drugs)",
+      "plan_overview": "CIHI NPDUIS Data Tables - Table 1 (Prescribed Drug Spending)",
+      "nihb": "ISC NIHB Annual Reports"
+    },
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "monitored_drugs": {
+      "N02AB03": {
+        "name": "Fentanyl",
+        "class": "Opioid Analgesic"
+      },
+      "N02AA03": {
+        "name": "Hydromorphone",
+        "class": "Opioid Analgesic"
+      },
+      "N02AA05": {
+        "name": "Oxycodone",
+        "class": "Opioid Analgesic"
+      },
+      "N02AA01": {
+        "name": "Morphine",
+        "class": "Opioid Analgesic"
+      },
+      "N02AJ06": {
+        "name": "Codeine and paracetamol",
+        "class": "Opioid Analgesic"
+      },
+      "N02AJ17": {
+        "name": "Oxycodone and paracetamol",
+        "class": "Opioid Analgesic"
+      },
+      "N06BA04": {
+        "name": "Methylphenidate",
+        "class": "ADHD Stimulant"
+      },
+      "N06BA12": {
+        "name": "Lisdexamfetamine",
+        "class": "ADHD Stimulant"
+      },
+      "N06BA02": {
+        "name": "Dexamfetamine",
+        "class": "ADHD Stimulant"
+      },
+      "N06BA01": {
+        "name": "Amfetamine",
+        "class": "ADHD Stimulant"
+      },
+      "S01LA05": {
+        "name": "Aflibercept",
+        "class": "Macular Degeneration"
+      },
+      "A10BJ06": {
+        "name": "Semaglutide",
+        "class": "GLP-1 / Diabetes"
+      },
+      "L04AB02": {
+        "name": "Infliximab",
+        "class": "Immunosuppressant"
+      },
+      "L04AB04": {
+        "name": "Adalimumab",
+        "class": "Immunosuppressant"
+      },
+      "R07AX32": {
+        "name": "Ivacaftor, tezacaftor, elexacaftor",
+        "class": "Cystic Fibrosis"
+      }
+    },
+    "jurisdictions": {
+      "ON": "Ontario",
+      "QC": "Quebec",
+      "BC": "British Columbia",
+      "AB": "Alberta",
+      "MB": "Manitoba",
+      "SK": "Saskatchewan",
+      "NS": "Nova Scotia",
+      "NB": "New Brunswick",
+      "NL": "Newfoundland and Labrador",
+      "PE": "Prince Edward Island",
+      "YT": "Yukon"
+    },
+    "data_lag_warning": "CIHI public claims data is subject to a 12-24 month reporting lag depending on provincial audit completion."
+  },
+  "drug_spending": {
+    "N02AB03": {
+      "name": "Fentanyl",
+      "class": "Opioid Analgesic",
+      "annual_data": {
+        "2020": {
+          "national_total": 16.83,
+          "yoy_change_pct": null,
+          "by_province": {
+            "ON": 5.77,
+            "QC": 6.42,
+            "BC": 1.65,
+            "AB": 0.9,
+            "MB": 0.57,
+            "SK": 0.91,
+            "NS": 0.27,
+            "NB": 0.24,
+            "NL": 0.06,
+            "PE": 0.02,
+            "YT": 0.02
+          }
+        },
+        "2021": {
+          "national_total": 16.03,
+          "yoy_change_pct": -4.75,
+          "by_province": {
+            "ON": 5.16,
+            "QC": 6.02,
+            "BC": 2.12,
+            "AB": 0.86,
+            "MB": 0.5,
+            "SK": 0.8,
+            "NS": 0.26,
+            "NB": 0.22,
+            "NL": 0.05,
+            "PE": 0.02,
+            "YT": 0.02
+          }
+        },
+        "2022": {
+          "national_total": 15.84,
+          "yoy_change_pct": -1.19,
+          "by_province": {
+            "ON": 4.53,
+            "QC": 5.57,
+            "BC": 3.33,
+            "AB": 0.79,
+            "MB": 0.45,
+            "SK": 0.67,
+            "NS": 0.24,
+            "NB": 0.18,
+            "NL": 0.04,
+            "PE": 0.02,
+            "YT": 0.02
+          }
+        },
+        "2023": {
+          "national_total": 26.37,
+          "yoy_change_pct": 66.48,
+          "by_province": {
+            "ON": 7.69,
+            "QC": 5.22,
+            "BC": 9.45,
+            "AB": 1.45,
+            "MB": 0.65,
+            "SK": 1.1,
+            "NS": 0.39,
+            "NB": 0.26,
+            "NL": 0.09,
+            "PE": 0.03,
+            "YT": 0.04
+          }
+        },
+        "2024": {
+          "national_total": 37.73,
+          "yoy_change_pct": 43.08,
+          "by_province": {
+            "ON": 9.03,
+            "QC": 4.85,
+            "BC": 18.89,
+            "AB": 1.78,
+            "MB": 0.85,
+            "SK": 1.25,
+            "NS": 0.49,
+            "NB": 0.39,
+            "NL": 0.11,
+            "PE": 0.03,
+            "YT": 0.06
+          }
+        }
+      }
+    },
+    "N02AA03": {
+      "name": "Hydromorphone",
+      "class": "Opioid Analgesic",
+      "annual_data": {
+        "2020": {
+          "national_total": 91.95,
+          "yoy_change_pct": null,
+          "by_province": {
+            "ON": 41.8,
+            "QC": 20.58,
+            "BC": 12.22,
+            "AB": 3.69,
+            "MB": 2.27,
+            "SK": 4.82,
+            "NS": 3.24,
+            "NB": 2.52,
+            "NL": 0.47,
+            "PE": 0.28,
+            "YT": 0.06
+          }
+        },
+        "2021": {
+          "national_total": 101.57,
+          "yoy_change_pct": 10.46,
+          "by_province": {
+            "ON": 45.17,
+            "QC": 21.65,
+            "BC": 16.95,
+            "AB": 3.83,
+            "MB": 2.26,
+            "SK": 4.82,
+            "NS": 3.34,
+            "NB": 2.66,
+            "NL": 0.53,
+            "PE": 0.3,
+            "YT": 0.06
+          }
+        },
+        "2022": {
+          "national_total": 108.06,
+          "yoy_change_pct": 6.39,
+          "by_province": {
+            "ON": 47.57,
+            "QC": 22.29,
+            "BC": 19.6,
+            "AB": 3.92,
+            "MB": 2.15,
+            "SK": 4.8,
+            "NS": 3.76,
+            "NB": 3.06,
+            "NL": 0.55,
+            "PE": 0.31,
+            "YT": 0.05
+          }
+        },
+        "2023": {
+          "national_total": 113.8,
+          "yoy_change_pct": 5.31,
+          "by_province": {
+            "ON": 50.81,
+            "QC": 22.57,
+            "BC": 20.3,
+            "AB": 4.02,
+            "MB": 2.21,
+            "SK": 4.69,
+            "NS": 4.55,
+            "NB": 3.66,
+            "NL": 0.6,
+            "PE": 0.33,
+            "YT": 0.06
+          }
+        },
+        "2024": {
+          "national_total": 118.21,
+          "yoy_change_pct": 3.88,
+          "by_province": {
+            "ON": 55.76,
+            "QC": 22.52,
+            "BC": 18.62,
+            "AB": 4.26,
+            "MB": 2.19,
+            "SK": 4.66,
+            "NS": 5.3,
+            "NB": 3.74,
+            "NL": 0.7,
+            "PE": 0.4,
+            "YT": 0.06
+          }
+        }
+      }
+    },
+    "N02AA05": {
+      "name": "Oxycodone",
+      "class": "Opioid Analgesic",
+      "annual_data": {
+        "2020": {
+          "national_total": 29.15,
+          "yoy_change_pct": null,
+          "by_province": {
+            "ON": 10.88,
+            "QC": 7.22,
+            "BC": 2.0,
+            "AB": 5.65,
+            "MB": 1.57,
+            "SK": 0.71,
+            "NS": 0.28,
+            "NB": 0.46,
+            "NL": 0.33,
+            "PE": 0.04,
+            "YT": 0.01
+          }
+        },
+        "2021": {
+          "national_total": 27.77,
+          "yoy_change_pct": -4.73,
+          "by_province": {
+            "ON": 10.31,
+            "QC": 6.83,
+            "BC": 2.09,
+            "AB": 5.43,
+            "MB": 1.39,
+            "SK": 0.67,
+            "NS": 0.28,
+            "NB": 0.4,
+            "NL": 0.31,
+            "PE": 0.05,
+            "YT": 0.01
+          }
+        },
+        "2022": {
+          "national_total": 26.39,
+          "yoy_change_pct": -4.97,
+          "by_province": {
+            "ON": 9.67,
+            "QC": 6.21,
+            "BC": 2.3,
+            "AB": 5.36,
+            "MB": 1.24,
+            "SK": 0.6,
+            "NS": 0.28,
+            "NB": 0.37,
+            "NL": 0.3,
+            "PE": 0.05,
+            "YT": 0.01
+          }
+        },
+        "2023": {
+          "national_total": 24.97,
+          "yoy_change_pct": -5.38,
+          "by_province": {
+            "ON": 8.92,
+            "QC": 5.72,
+            "BC": 2.51,
+            "AB": 5.16,
+            "MB": 1.16,
+            "SK": 0.54,
+            "NS": 0.27,
+            "NB": 0.33,
+            "NL": 0.3,
+            "PE": 0.05,
+            "YT": 0.01
+          }
+        },
+        "2024": {
+          "national_total": 24.13,
+          "yoy_change_pct": -3.36,
+          "by_province": {
+            "ON": 8.57,
+            "QC": 5.29,
+            "BC": 2.78,
+            "AB": 5.05,
+            "MB": 1.01,
+            "SK": 0.52,
+            "NS": 0.28,
+            "NB": 0.31,
+            "NL": 0.28,
+            "PE": 0.04,
+            "YT": 0.0
+          }
+        }
+      }
+    },
+    "N02AA01": {
+      "name": "Morphine",
+      "class": "Opioid Analgesic",
+      "annual_data": {
+        "2020": {
+          "national_total": 42.87,
+          "yoy_change_pct": null,
+          "by_province": {
+            "ON": 11.36,
+            "QC": 6.61,
+            "BC": 19.3,
+            "AB": 1.3,
+            "MB": 0.7,
+            "SK": 0.63,
+            "NS": 1.13,
+            "NB": 0.9,
+            "NL": 0.75,
+            "PE": 0.17,
+            "YT": 0.02
+          }
+        },
+        "2021": {
+          "national_total": 54.11,
+          "yoy_change_pct": 26.22,
+          "by_province": {
+            "ON": 16.54,
+            "QC": 7.65,
+            "BC": 23.93,
+            "AB": 1.31,
+            "MB": 0.65,
+            "SK": 0.58,
+            "NS": 1.42,
+            "NB": 1.04,
+            "NL": 0.76,
+            "PE": 0.19,
+            "YT": 0.04
+          }
+        },
+        "2022": {
+          "national_total": 67.63,
+          "yoy_change_pct": 24.99,
+          "by_province": {
+            "ON": 23.56,
+            "QC": 8.33,
+            "BC": 29.08,
+            "AB": 1.37,
+            "MB": 0.59,
+            "SK": 0.58,
+            "NS": 1.79,
+            "NB": 1.36,
+            "NL": 0.74,
+            "PE": 0.2,
+            "YT": 0.03
+          }
+        },
+        "2023": {
+          "national_total": 81.5,
+          "yoy_change_pct": 20.51,
+          "by_province": {
+            "ON": 30.84,
+            "QC": 9.07,
+            "BC": 34.36,
+            "AB": 1.41,
+            "MB": 0.55,
+            "SK": 0.57,
+            "NS": 2.03,
+            "NB": 1.59,
+            "NL": 0.79,
+            "PE": 0.26,
+            "YT": 0.03
+          }
+        },
+        "2024": {
+          "national_total": 98.84,
+          "yoy_change_pct": 21.28,
+          "by_province": {
+            "ON": 39.09,
+            "QC": 9.35,
+            "BC": 42.35,
+            "AB": 1.5,
+            "MB": 0.56,
+            "SK": 0.54,
+            "NS": 2.62,
+            "NB": 1.64,
+            "NL": 0.9,
+            "PE": 0.27,
+            "YT": 0.02
+          }
+        }
+      }
+    },
+    "N02AJ06": {
+      "name": "Codeine and paracetamol",
+      "class": "Opioid Analgesic",
+      "annual_data": {
+        "2020": {
+          "national_total": 20.46,
+          "yoy_change_pct": null,
+          "by_province": {
+            "ON": 7.72,
+            "QC": 1.16,
+            "BC": 4.66,
+            "AB": 3.01,
+            "MB": 1.64,
+            "SK": 0.65,
+            "NS": 0.69,
+            "NB": 0.36,
+            "NL": 0.49,
+            "PE": 0.05,
+            "YT": 0.03
+          }
+        },
+        "2021": {
+          "national_total": 20.83,
+          "yoy_change_pct": 1.81,
+          "by_province": {
+            "ON": 9.1,
+            "QC": 1.11,
+            "BC": 4.23,
+            "AB": 2.79,
+            "MB": 1.65,
+            "SK": 0.61,
+            "NS": 0.51,
+            "NB": 0.33,
+            "NL": 0.42,
+            "PE": 0.05,
+            "YT": 0.03
+          }
+        },
+        "2022": {
+          "national_total": 20.55,
+          "yoy_change_pct": -1.34,
+          "by_province": {
+            "ON": 9.13,
+            "QC": 1.0,
+            "BC": 4.0,
+            "AB": 2.88,
+            "MB": 1.61,
+            "SK": 0.6,
+            "NS": 0.53,
+            "NB": 0.33,
+            "NL": 0.39,
+            "PE": 0.05,
+            "YT": 0.03
+          }
+        },
+        "2023": {
+          "national_total": 19.89,
+          "yoy_change_pct": -3.21,
+          "by_province": {
+            "ON": 8.75,
+            "QC": 0.93,
+            "BC": 3.86,
+            "AB": 2.87,
+            "MB": 1.58,
+            "SK": 0.6,
+            "NS": 0.53,
+            "NB": 0.32,
+            "NL": 0.37,
+            "PE": 0.05,
+            "YT": 0.03
+          }
+        },
+        "2024": {
+          "national_total": 19.59,
+          "yoy_change_pct": -1.51,
+          "by_province": {
+            "ON": 8.39,
+            "QC": 0.86,
+            "BC": 3.84,
+            "AB": 2.96,
+            "MB": 1.64,
+            "SK": 0.61,
+            "NS": 0.53,
+            "NB": 0.32,
+            "NL": 0.36,
+            "PE": 0.05,
+            "YT": 0.03
+          }
+        }
+      }
+    },
+    "N02AJ17": {
+      "name": "Oxycodone and paracetamol",
+      "class": "Opioid Analgesic",
+      "annual_data": {
+        "2020": {
+          "national_total": 20.01,
+          "yoy_change_pct": null,
+          "by_province": {
+            "ON": 15.77,
+            "QC": 0.0,
+            "BC": 0.88,
+            "AB": 0.88,
+            "MB": 0.69,
+            "SK": 0.0,
+            "NS": 0.46,
+            "NB": 0.66,
+            "NL": 0.56,
+            "PE": 0.1,
+            "YT": 0.01
+          }
+        },
+        "2021": {
+          "national_total": 19.5,
+          "yoy_change_pct": -2.55,
+          "by_province": {
+            "ON": 15.42,
+            "QC": 0.0,
+            "BC": 0.83,
+            "AB": 0.87,
+            "MB": 0.66,
+            "SK": 0.0,
+            "NS": 0.44,
+            "NB": 0.64,
+            "NL": 0.53,
+            "PE": 0.1,
+            "YT": 0.01
+          }
+        },
+        "2022": {
+          "national_total": 19.12,
+          "yoy_change_pct": -1.95,
+          "by_province": {
+            "ON": 15.13,
+            "QC": 0.0,
+            "BC": 0.79,
+            "AB": 0.89,
+            "MB": 0.64,
+            "SK": 0.0,
+            "NS": 0.44,
+            "NB": 0.63,
+            "NL": 0.51,
+            "PE": 0.09,
+            "YT": 0.0
+          }
+        },
+        "2023": {
+          "national_total": 18.99,
+          "yoy_change_pct": -0.68,
+          "by_province": {
+            "ON": 14.99,
+            "QC": 0.0,
+            "BC": 0.75,
+            "AB": 0.88,
+            "MB": 0.66,
+            "SK": 0.0,
+            "NS": 0.45,
+            "NB": 0.65,
+            "NL": 0.51,
+            "PE": 0.09,
+            "YT": 0.01
+          }
+        },
+        "2024": {
+          "national_total": 18.92,
+          "yoy_change_pct": -0.37,
+          "by_province": {
+            "ON": 14.89,
+            "QC": 0.0,
+            "BC": 0.74,
+            "AB": 0.9,
+            "MB": 0.67,
+            "SK": 0.0,
+            "NS": 0.46,
+            "NB": 0.64,
+            "NL": 0.51,
+            "PE": 0.1,
+            "YT": 0.01
+          }
+        }
+      }
+    },
+    "N06BA04": {
+      "name": "Methylphenidate",
+      "class": "ADHD Stimulant",
+      "annual_data": {
+        "2020": {
+          "national_total": 62.68,
+          "yoy_change_pct": null,
+          "by_province": {
+            "ON": 15.98,
+            "QC": 29.46,
+            "BC": 3.97,
+            "AB": 0.4,
+            "MB": 1.78,
+            "SK": 7.03,
+            "NS": 1.28,
+            "NB": 0.86,
+            "NL": 1.48,
+            "PE": 0.41,
+            "YT": 0.03
+          }
+        },
+        "2021": {
+          "national_total": 69.22,
+          "yoy_change_pct": 10.43,
+          "by_province": {
+            "ON": 17.52,
+            "QC": 31.96,
+            "BC": 4.38,
+            "AB": 0.46,
+            "MB": 2.06,
+            "SK": 8.09,
+            "NS": 1.39,
+            "NB": 1.09,
+            "NL": 1.82,
+            "PE": 0.42,
+            "YT": 0.03
+          }
+        },
+        "2022": {
+          "national_total": 76.22,
+          "yoy_change_pct": 10.11,
+          "by_province": {
+            "ON": 19.36,
+            "QC": 33.31,
+            "BC": 5.21,
+            "AB": 0.51,
+            "MB": 2.27,
+            "SK": 9.58,
+            "NS": 1.85,
+            "NB": 1.52,
+            "NL": 2.13,
+            "PE": 0.43,
+            "YT": 0.05
+          }
+        },
+        "2023": {
+          "national_total": 89.76,
+          "yoy_change_pct": 17.76,
+          "by_province": {
+            "ON": 26.7,
+            "QC": 34.34,
+            "BC": 5.68,
+            "AB": 0.61,
+            "MB": 4.2,
+            "SK": 11.42,
+            "NS": 1.88,
+            "NB": 1.9,
+            "NL": 2.52,
+            "PE": 0.47,
+            "YT": 0.04
+          }
+        },
+        "2024": {
+          "national_total": 91.73,
+          "yoy_change_pct": 2.19,
+          "by_province": {
+            "ON": 27.23,
+            "QC": 34.55,
+            "BC": 5.83,
+            "AB": 0.95,
+            "MB": 3.32,
+            "SK": 12.92,
+            "NS": 2.1,
+            "NB": 1.6,
+            "NL": 2.69,
+            "PE": 0.5,
+            "YT": 0.04
+          }
+        }
+      }
+    },
+    "N06BA12": {
+      "name": "Lisdexamfetamine",
+      "class": "ADHD Stimulant",
+      "annual_data": {
+        "2020": {
+          "national_total": 55.74,
+          "yoy_change_pct": null,
+          "by_province": {
+            "ON": 27.18,
+            "QC": 19.01,
+            "BC": 2.08,
+            "AB": 2.12,
+            "MB": 1.68,
+            "SK": 2.09,
+            "NS": 0.68,
+            "NB": 0.6,
+            "NL": 0.17,
+            "PE": 0.1,
+            "YT": 0.03
+          }
+        },
+        "2021": {
+          "national_total": 64.26,
+          "yoy_change_pct": 15.29,
+          "by_province": {
+            "ON": 30.77,
+            "QC": 21.66,
+            "BC": 3.02,
+            "AB": 2.72,
+            "MB": 2.0,
+            "SK": 2.54,
+            "NS": 0.67,
+            "NB": 0.58,
+            "NL": 0.15,
+            "PE": 0.1,
+            "YT": 0.05
+          }
+        },
+        "2022": {
+          "national_total": 74.35,
+          "yoy_change_pct": 15.7,
+          "by_province": {
+            "ON": 36.29,
+            "QC": 23.47,
+            "BC": 4.31,
+            "AB": 3.37,
+            "MB": 2.32,
+            "SK": 2.9,
+            "NS": 0.72,
+            "NB": 0.58,
+            "NL": 0.18,
+            "PE": 0.13,
+            "YT": 0.08
+          }
+        },
+        "2023": {
+          "national_total": 87.43,
+          "yoy_change_pct": 17.59,
+          "by_province": {
+            "ON": 43.16,
+            "QC": 25.67,
+            "BC": 6.11,
+            "AB": 4.09,
+            "MB": 2.95,
+            "SK": 3.54,
+            "NS": 0.8,
+            "NB": 0.65,
+            "NL": 0.23,
+            "PE": 0.13,
+            "YT": 0.1
+          }
+        },
+        "2024": {
+          "national_total": 88.14,
+          "yoy_change_pct": 0.81,
+          "by_province": {
+            "ON": 41.11,
+            "QC": 26.08,
+            "BC": 7.92,
+            "AB": 4.16,
+            "MB": 3.44,
+            "SK": 3.56,
+            "NS": 0.81,
+            "NB": 0.63,
+            "NL": 0.22,
+            "PE": 0.12,
+            "YT": 0.09
+          }
+        }
+      }
+    },
+    "N06BA02": {
+      "name": "Dexamfetamine",
+      "class": "ADHD Stimulant",
+      "annual_data": {
+        "2020": {
+          "national_total": 8.93,
+          "yoy_change_pct": null,
+          "by_province": {
+            "ON": 1.57,
+            "QC": 1.02,
+            "BC": 4.18,
+            "AB": 0.68,
+            "MB": 0.21,
+            "SK": 0.27,
+            "NS": 0.58,
+            "NB": 0.29,
+            "NL": 0.11,
+            "PE": 0.02,
+            "YT": 0.0
+          }
+        },
+        "2021": {
+          "national_total": 9.68,
+          "yoy_change_pct": 8.4,
+          "by_province": {
+            "ON": 1.59,
+            "QC": 1.04,
+            "BC": 4.82,
+            "AB": 0.77,
+            "MB": 0.2,
+            "SK": 0.29,
+            "NS": 0.52,
+            "NB": 0.32,
+            "NL": 0.11,
+            "PE": 0.02,
+            "YT": 0.0
+          }
+        },
+        "2022": {
+          "national_total": 10.09,
+          "yoy_change_pct": 4.24,
+          "by_province": {
+            "ON": 1.63,
+            "QC": 1.04,
+            "BC": 5.14,
+            "AB": 0.76,
+            "MB": 0.18,
+            "SK": 0.33,
+            "NS": 0.57,
+            "NB": 0.32,
+            "NL": 0.09,
+            "PE": 0.02,
+            "YT": 0.01
+          }
+        },
+        "2023": {
+          "national_total": 10.67,
+          "yoy_change_pct": 5.75,
+          "by_province": {
+            "ON": 1.69,
+            "QC": 1.12,
+            "BC": 5.47,
+            "AB": 0.78,
+            "MB": 0.19,
+            "SK": 0.34,
+            "NS": 0.57,
+            "NB": 0.36,
+            "NL": 0.11,
+            "PE": 0.03,
+            "YT": 0.01
+          }
+        },
+        "2024": {
+          "national_total": 10.87,
+          "yoy_change_pct": 1.87,
+          "by_province": {
+            "ON": 1.78,
+            "QC": 1.22,
+            "BC": 5.51,
+            "AB": 0.78,
+            "MB": 0.19,
+            "SK": 0.36,
+            "NS": 0.58,
+            "NB": 0.31,
+            "NL": 0.1,
+            "PE": 0.02,
+            "YT": 0.02
+          }
+        }
+      }
+    },
+    "N06BA01": {
+      "name": "Amfetamine",
+      "class": "ADHD Stimulant",
+      "annual_data": {
+        "2020": {
+          "national_total": 5.39,
+          "yoy_change_pct": null,
+          "by_province": {
+            "ON": 3.06,
+            "QC": 1.85,
+            "BC": 0.19,
+            "AB": 0.0,
+            "MB": 0.02,
+            "SK": 0.0,
+            "NS": 0.12,
+            "NB": 0.08,
+            "NL": 0.05,
+            "PE": 0.01,
+            "YT": 0.01
+          }
+        },
+        "2021": {
+          "national_total": 5.78,
+          "yoy_change_pct": 7.24,
+          "by_province": {
+            "ON": 3.19,
+            "QC": 1.97,
+            "BC": 0.26,
+            "AB": 0.0,
+            "MB": 0.05,
+            "SK": 0.0,
+            "NS": 0.13,
+            "NB": 0.09,
+            "NL": 0.06,
+            "PE": 0.02,
+            "YT": 0.01
+          }
+        },
+        "2022": {
+          "national_total": 6.33,
+          "yoy_change_pct": 9.52,
+          "by_province": {
+            "ON": 3.44,
+            "QC": 2.06,
+            "BC": 0.34,
+            "AB": 0.0,
+            "MB": 0.06,
+            "SK": 0.0,
+            "NS": 0.18,
+            "NB": 0.13,
+            "NL": 0.08,
+            "PE": 0.03,
+            "YT": 0.01
+          }
+        },
+        "2023": {
+          "national_total": 7.41,
+          "yoy_change_pct": 17.06,
+          "by_province": {
+            "ON": 3.87,
+            "QC": 2.42,
+            "BC": 0.46,
+            "AB": 0.01,
+            "MB": 0.09,
+            "SK": 0.0,
+            "NS": 0.24,
+            "NB": 0.14,
+            "NL": 0.13,
+            "PE": 0.04,
+            "YT": 0.01
+          }
+        },
+        "2024": {
+          "national_total": 8.28,
+          "yoy_change_pct": 11.74,
+          "by_province": {
+            "ON": 4.22,
+            "QC": 2.44,
+            "BC": 0.58,
+            "AB": 0.11,
+            "MB": 0.12,
+            "SK": 0.0,
+            "NS": 0.27,
+            "NB": 0.25,
+            "NL": 0.22,
+            "PE": 0.06,
+            "YT": 0.01
+          }
+        }
+      }
+    },
+    "S01LA05": {
+      "name": "Aflibercept",
+      "class": "Macular Degeneration",
+      "annual_data": {
+        "2020": {
+          "national_total": 473.54,
+          "yoy_change_pct": null,
+          "by_province": {
+            "ON": 309.51,
+            "QC": 141.92,
+            "BC": 0.0,
+            "AB": 7.91,
+            "MB": 0.0,
+            "SK": 4.6,
+            "NS": 0.0,
+            "NB": 7.52,
+            "NL": 0.42,
+            "PE": 1.26,
+            "YT": 0.4
+          }
+        },
+        "2021": {
+          "national_total": 557.84,
+          "yoy_change_pct": 17.8,
+          "by_province": {
+            "ON": 368.66,
+            "QC": 160.69,
+            "BC": 0.0,
+            "AB": 11.25,
+            "MB": 0.0,
+            "SK": 5.56,
+            "NS": 0.0,
+            "NB": 9.2,
+            "NL": 0.59,
+            "PE": 1.41,
+            "YT": 0.48
+          }
+        },
+        "2022": {
+          "national_total": 622.89,
+          "yoy_change_pct": 11.66,
+          "by_province": {
+            "ON": 413.69,
+            "QC": 180.02,
+            "BC": 0.0,
+            "AB": 11.68,
+            "MB": 0.0,
+            "SK": 5.57,
+            "NS": 0.0,
+            "NB": 8.92,
+            "NL": 0.92,
+            "PE": 1.49,
+            "YT": 0.6
+          }
+        },
+        "2023": {
+          "national_total": 741.22,
+          "yoy_change_pct": 19.0,
+          "by_province": {
+            "ON": 480.48,
+            "QC": 227.0,
+            "BC": 0.0,
+            "AB": 11.96,
+            "MB": 0.0,
+            "SK": 5.96,
+            "NS": 0.08,
+            "NB": 12.15,
+            "NL": 1.39,
+            "PE": 1.61,
+            "YT": 0.59
+          }
+        },
+        "2024": {
+          "national_total": 807.9,
+          "yoy_change_pct": 9.0,
+          "by_province": {
+            "ON": 529.15,
+            "QC": 236.59,
+            "BC": 0.0,
+            "AB": 15.06,
+            "MB": 0.0,
+            "SK": 6.16,
+            "NS": 0.2,
+            "NB": 16.43,
+            "NL": 1.69,
+            "PE": 1.89,
+            "YT": 0.73
+          }
+        }
+      }
+    },
+    "A10BJ06": {
+      "name": "Semaglutide",
+      "class": "GLP-1 / Diabetes",
+      "annual_data": {
+        "2020": {
+          "national_total": 130.49,
+          "yoy_change_pct": null,
+          "by_province": {
+            "ON": 96.49,
+            "QC": 18.88,
+            "BC": 0.0,
+            "AB": 13.91,
+            "MB": 0.0,
+            "SK": 0.21,
+            "NS": 0.11,
+            "NB": 0.38,
+            "NL": 0.06,
+            "PE": 0.43,
+            "YT": 0.02
+          }
+        },
+        "2021": {
+          "national_total": 264.99,
+          "yoy_change_pct": 103.07,
+          "by_province": {
+            "ON": 171.46,
+            "QC": 49.0,
+            "BC": 8.58,
+            "AB": 25.73,
+            "MB": 1.24,
+            "SK": 2.83,
+            "NS": 2.67,
+            "NB": 2.17,
+            "NL": 0.23,
+            "PE": 0.93,
+            "YT": 0.15
+          }
+        },
+        "2022": {
+          "national_total": 433.85,
+          "yoy_change_pct": 63.72,
+          "by_province": {
+            "ON": 268.69,
+            "QC": 77.39,
+            "BC": 23.41,
+            "AB": 41.22,
+            "MB": 3.77,
+            "SK": 6.5,
+            "NS": 6.15,
+            "NB": 4.68,
+            "NL": 0.42,
+            "PE": 1.3,
+            "YT": 0.32
+          }
+        },
+        "2023": {
+          "national_total": 662.09,
+          "yoy_change_pct": 52.61,
+          "by_province": {
+            "ON": 402.59,
+            "QC": 119.04,
+            "BC": 39.36,
+            "AB": 60.21,
+            "MB": 7.24,
+            "SK": 12.22,
+            "NS": 10.1,
+            "NB": 8.44,
+            "NL": 0.79,
+            "PE": 1.68,
+            "YT": 0.42
+          }
+        },
+        "2024": {
+          "national_total": 807.27,
+          "yoy_change_pct": 21.93,
+          "by_province": {
+            "ON": 488.65,
+            "QC": 140.62,
+            "BC": 60.44,
+            "AB": 63.76,
+            "MB": 9.42,
+            "SK": 16.25,
+            "NS": 13.87,
+            "NB": 10.45,
+            "NL": 1.24,
+            "PE": 2.03,
+            "YT": 0.54
+          }
+        }
+      }
+    },
+    "L04AB02": {
+      "name": "Infliximab",
+      "class": "Immunosuppressant",
+      "annual_data": {
+        "2020": {
+          "national_total": 489.98,
+          "yoy_change_pct": null,
+          "by_province": {
+            "ON": 139.89,
+            "QC": 135.74,
+            "BC": 43.73,
+            "AB": 74.61,
+            "MB": 30.54,
+            "SK": 42.53,
+            "NS": 9.15,
+            "NB": 8.33,
+            "NL": 2.91,
+            "PE": 2.16,
+            "YT": 0.39
+          }
+        },
+        "2021": {
+          "national_total": 471.53,
+          "yoy_change_pct": -3.77,
+          "by_province": {
+            "ON": 144.79,
+            "QC": 145.87,
+            "BC": 46.52,
+            "AB": 34.68,
+            "MB": 32.87,
+            "SK": 45.49,
+            "NS": 8.57,
+            "NB": 7.72,
+            "NL": 2.69,
+            "PE": 1.96,
+            "YT": 0.37
+          }
+        },
+        "2022": {
+          "national_total": 418.87,
+          "yoy_change_pct": -11.17,
+          "by_province": {
+            "ON": 145.67,
+            "QC": 91.55,
+            "BC": 47.46,
+            "AB": 34.64,
+            "MB": 33.62,
+            "SK": 47.16,
+            "NS": 7.56,
+            "NB": 6.84,
+            "NL": 2.31,
+            "PE": 1.69,
+            "YT": 0.37
+          }
+        },
+        "2023": {
+          "national_total": 384.67,
+          "yoy_change_pct": -8.16,
+          "by_province": {
+            "ON": 129.15,
+            "QC": 89.91,
+            "BC": 46.94,
+            "AB": 36.88,
+            "MB": 34.26,
+            "SK": 30.52,
+            "NS": 5.88,
+            "NB": 7.16,
+            "NL": 1.88,
+            "PE": 1.66,
+            "YT": 0.43
+          }
+        },
+        "2024": {
+          "national_total": 363.06,
+          "yoy_change_pct": -5.62,
+          "by_province": {
+            "ON": 102.22,
+            "QC": 98.44,
+            "BC": 47.27,
+            "AB": 38.53,
+            "MB": 34.14,
+            "SK": 25.36,
+            "NS": 6.57,
+            "NB": 7.88,
+            "NL": 1.33,
+            "PE": 0.86,
+            "YT": 0.46
+          }
+        }
+      }
+    },
+    "L04AB04": {
+      "name": "Adalimumab",
+      "class": "Immunosuppressant",
+      "annual_data": {
+        "2020": {
+          "national_total": 445.42,
+          "yoy_change_pct": null,
+          "by_province": {
+            "ON": 112.3,
+            "QC": 99.7,
+            "BC": 96.43,
+            "AB": 54.99,
+            "MB": 26.95,
+            "SK": 26.54,
+            "NS": 11.7,
+            "NB": 9.22,
+            "NL": 5.3,
+            "PE": 1.74,
+            "YT": 0.55
+          }
+        },
+        "2021": {
+          "national_total": 444.45,
+          "yoy_change_pct": -0.22,
+          "by_province": {
+            "ON": 119.5,
+            "QC": 103.45,
+            "BC": 80.44,
+            "AB": 55.58,
+            "MB": 29.48,
+            "SK": 28.22,
+            "NS": 12.09,
+            "NB": 7.95,
+            "NL": 5.47,
+            "PE": 1.7,
+            "YT": 0.57
+          }
+        },
+        "2022": {
+          "national_total": 361.31,
+          "yoy_change_pct": -18.71,
+          "by_province": {
+            "ON": 121.51,
+            "QC": 71.21,
+            "BC": 57.44,
+            "AB": 31.44,
+            "MB": 28.92,
+            "SK": 27.37,
+            "NS": 11.22,
+            "NB": 5.26,
+            "NL": 4.85,
+            "PE": 1.58,
+            "YT": 0.51
+          }
+        },
+        "2023": {
+          "national_total": 347.35,
+          "yoy_change_pct": -3.86,
+          "by_province": {
+            "ON": 120.42,
+            "QC": 73.59,
+            "BC": 61.74,
+            "AB": 25.21,
+            "MB": 27.61,
+            "SK": 19.48,
+            "NS": 8.25,
+            "NB": 5.48,
+            "NL": 3.72,
+            "PE": 1.49,
+            "YT": 0.36
+          }
+        },
+        "2024": {
+          "national_total": 348.84,
+          "yoy_change_pct": 0.43,
+          "by_province": {
+            "ON": 113.59,
+            "QC": 81.56,
+            "BC": 63.36,
+            "AB": 28.56,
+            "MB": 25.44,
+            "SK": 17.73,
+            "NS": 8.9,
+            "NB": 5.67,
+            "NL": 2.67,
+            "PE": 1.02,
+            "YT": 0.34
+          }
+        }
+      }
+    },
+    "R07AX32": {
+      "name": "Ivacaftor, tezacaftor, elexacaftor",
+      "class": "Cystic Fibrosis",
+      "annual_data": {
+        "2020": {
+          "national_total": 0.0,
+          "yoy_change_pct": null,
+          "by_province": {
+            "ON": 0.0,
+            "QC": 0.0,
+            "BC": 0.0,
+            "AB": 0.0,
+            "MB": 0.0,
+            "SK": 0.0,
+            "NS": 0.0,
+            "NB": 0.0,
+            "NL": 0.0,
+            "PE": 0.0,
+            "YT": 0.0
+          }
+        },
+        "2021": {
+          "national_total": 21.96,
+          "yoy_change_pct": null,
+          "by_province": {
+            "ON": 7.56,
+            "QC": 4.55,
+            "BC": 1.72,
+            "AB": 4.17,
+            "MB": 1.41,
+            "SK": 1.27,
+            "NS": 0.0,
+            "NB": 1.07,
+            "NL": 0.16,
+            "PE": 0.05,
+            "YT": 0.0
+          }
+        },
+        "2022": {
+          "national_total": 285.68,
+          "yoy_change_pct": 1200.91,
+          "by_province": {
+            "ON": 109.77,
+            "QC": 44.11,
+            "BC": 32.88,
+            "AB": 43.58,
+            "MB": 13.38,
+            "SK": 18.66,
+            "NS": 0.0,
+            "NB": 14.06,
+            "NL": 8.94,
+            "PE": 0.0,
+            "YT": 0.3
+          }
+        },
+        "2023": {
+          "national_total": 391.55,
+          "yoy_change_pct": 37.06,
+          "by_province": {
+            "ON": 146.15,
+            "QC": 67.9,
+            "BC": 48.44,
+            "AB": 57.66,
+            "MB": 15.62,
+            "SK": 25.22,
+            "NS": 0.0,
+            "NB": 18.45,
+            "NL": 11.84,
+            "PE": 0.0,
+            "YT": 0.27
+          }
+        },
+        "2024": {
+          "national_total": 454.35,
+          "yoy_change_pct": 16.04,
+          "by_province": {
+            "ON": 160.82,
+            "QC": 78.59,
+            "BC": 62.73,
+            "AB": 70.61,
+            "MB": 19.03,
+            "SK": 27.4,
+            "NS": 0.0,
+            "NB": 21.73,
+            "NL": 13.2,
+            "PE": 0.0,
+            "YT": 0.24
+          }
+        }
+      }
+    }
+  },
+  "plan_overview": {
+    "ON": {
+      "2020": {
+        "spending": 6893.57,
+        "beneficiaries": 4127594,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 3413.524637819999,
+              "beneficiaries": 2243581
+            },
+            "male": {
+              "spending": 3480.050346439998,
+              "beneficiaries": 1884013
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 335.0376116800001,
+              "beneficiaries": 974965
+            },
+            "25_to_44": {
+              "spending": 684.8809489600002,
+              "beneficiaries": 290085
+            },
+            "45_to_64": {
+              "spending": 1309.43361394,
+              "beneficiaries": 392127
+            },
+            "65_and_older": {
+              "spending": 4564.222809679995,
+              "beneficiaries": 2470417
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 6044.562379549999,
+              "beneficiaries": 3641647
+            },
+            "rural": {
+              "spending": 816.7743114100001,
+              "beneficiaries": 467764
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 1906.96711895,
+              "beneficiaries": 1004333
+            },
+            "q2": {
+              "spending": 1463.75833909,
+              "beneficiaries": 852520
+            },
+            "q3": {
+              "spending": 1263.418677799999,
+              "beneficiaries": 777756
+            },
+            "q4": {
+              "spending": 1124.5013384499991,
+              "beneficiaries": 725294
+            },
+            "q5_highest": {
+              "spending": 1102.156682719999,
+              "beneficiaries": 749267
+            }
+          }
+        }
+      },
+      "2021": {
+        "spending": 7477.68,
+        "beneficiaries": 4646500,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 3720.3615068699987,
+              "beneficiaries": 2484557
+            },
+            "male": {
+              "spending": 3757.314876429998,
+              "beneficiaries": 2161943
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 394.51414947000006,
+              "beneficiaries": 1340546
+            },
+            "25_to_44": {
+              "spending": 728.6038714300001,
+              "beneficiaries": 311051
+            },
+            "45_to_64": {
+              "spending": 1370.06010502,
+              "beneficiaries": 398294
+            },
+            "65_and_older": {
+              "spending": 4984.498257379998,
+              "beneficiaries": 2596609
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 6540.280500279999,
+              "beneficiaries": 4109117
+            },
+            "rural": {
+              "spending": 900.32836244,
+              "beneficiaries": 519381
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 2012.739832140001,
+              "beneficiaries": 1077596
+            },
+            "q2": {
+              "spending": 1593.5327021800001,
+              "beneficiaries": 943590
+            },
+            "q3": {
+              "spending": 1381.30568996,
+              "beneficiaries": 884033
+            },
+            "q4": {
+              "spending": 1234.525479339998,
+              "beneficiaries": 843221
+            },
+            "q5_highest": {
+              "spending": 1217.9128499099988,
+              "beneficiaries": 879737
+            }
+          }
+        }
+      },
+      "2022": {
+        "spending": 8009.88,
+        "beneficiaries": 4739066,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 3970.0326609699996,
+              "beneficiaries": 2547345
+            },
+            "male": {
+              "spending": 4039.84516901,
+              "beneficiaries": 2191721
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 456.8081698800001,
+              "beneficiaries": 1345176
+            },
+            "25_to_44": {
+              "spending": 798.7369163900003,
+              "beneficiaries": 309002
+            },
+            "45_to_64": {
+              "spending": 1397.9645498599998,
+              "beneficiaries": 388013
+            },
+            "65_and_older": {
+              "spending": 5356.3681938499985,
+              "beneficiaries": 2696875
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 6986.499206879999,
+              "beneficiaries": 4196739
+            },
+            "rural": {
+              "spending": 973.4157187499999,
+              "beneficiaries": 524979
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 2103.504167300001,
+              "beneficiaries": 1087491
+            },
+            "q2": {
+              "spending": 1689.73853629,
+              "beneficiaries": 960236
+            },
+            "q3": {
+              "spending": 1485.617224,
+              "beneficiaries": 907920
+            },
+            "q4": {
+              "spending": 1347.94749998,
+              "beneficiaries": 867539
+            },
+            "q5_highest": {
+              "spending": 1332.72067693,
+              "beneficiaries": 898199
+            }
+          }
+        }
+      },
+      "2023": {
+        "spending": 8582.46,
+        "beneficiaries": 4639735,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 4250.1643681000005,
+              "beneficiaries": 2508155
+            },
+            "male": {
+              "spending": 4332.29707964,
+              "beneficiaries": 2131580
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 543.1740535700002,
+              "beneficiaries": 1201121
+            },
+            "25_to_44": {
+              "spending": 850.4705913199999,
+              "beneficiaries": 297577
+            },
+            "45_to_64": {
+              "spending": 1453.72889577,
+              "beneficiaries": 379270
+            },
+            "65_and_older": {
+              "spending": 5735.087907080001,
+              "beneficiaries": 2761767
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 7461.1248072299995,
+              "beneficiaries": 4095225
+            },
+            "rural": {
+              "spending": 1046.10565008,
+              "beneficiaries": 526781
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 2213.60506827,
+              "beneficiaries": 1067105
+            },
+            "q2": {
+              "spending": 1791.4393161700011,
+              "beneficiaries": 944536
+            },
+            "q3": {
+              "spending": 1591.92027927,
+              "beneficiaries": 891633
+            },
+            "q4": {
+              "spending": 1454.176882279999,
+              "beneficiaries": 849137
+            },
+            "q5_highest": {
+              "spending": 1455.44846026,
+              "beneficiaries": 869242
+            }
+          }
+        }
+      },
+      "2024": {
+        "spending": 9300.02,
+        "beneficiaries": 4760032,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 4603.735109350001,
+              "beneficiaries": 2569498
+            },
+            "male": {
+              "spending": 4696.281547720001,
+              "beneficiaries": 2190534
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 536.41436984,
+              "beneficiaries": 1227255
+            },
+            "25_to_44": {
+              "spending": 910.42698123,
+              "beneficiaries": 309129
+            },
+            "45_to_64": {
+              "spending": 1520.38033676,
+              "beneficiaries": 380160
+            },
+            "65_and_older": {
+              "spending": 6332.794969240003,
+              "beneficiaries": 2843488
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 8096.781747130005,
+              "beneficiaries": 4198981
+            },
+            "rural": {
+              "spending": 1149.88207898,
+              "beneficiaries": 542158
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 2359.1433319500006,
+              "beneficiaries": 1089133
+            },
+            "q2": {
+              "spending": 1931.9627770500008,
+              "beneficiaries": 965817
+            },
+            "q3": {
+              "spending": 1746.717774410001,
+              "beneficiaries": 918987
+            },
+            "q4": {
+              "spending": 1598.998522500001,
+              "beneficiaries": 877057
+            },
+            "q5_highest": {
+              "spending": 1609.21509019,
+              "beneficiaries": 889778
+            }
+          }
+        }
+      }
+    },
+    "QC": {
+      "2020": {
+        "spending": 4347.31,
+        "beneficiaries": 3007681,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 2234.398418869992,
+              "beneficiaries": 1681023
+            },
+            "male": {
+              "spending": 2112.915739769994,
+              "beneficiaries": 1326658
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 165.3070826600003,
+              "beneficiaries": 327152
+            },
+            "25_to_44": {
+              "spending": 383.5232015400004,
+              "beneficiaries": 442273
+            },
+            "45_to_64": {
+              "spending": 982.1132794499948,
+              "beneficiaries": 727560
+            },
+            "65_and_older": {
+              "spending": 2816.3705949899913,
+              "beneficiaries": 1510696
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "rural": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "q2": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "q3": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "q4": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "q5_highest": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            }
+          }
+        }
+      },
+      "2021": {
+        "spending": 4724.98,
+        "beneficiaries": 4054915,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 2423.572198670011,
+              "beneficiaries": 2259252
+            },
+            "male": {
+              "spending": 2301.4053211100077,
+              "beneficiaries": 1795663
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 179.0000949299998,
+              "beneficiaries": 467491
+            },
+            "25_to_44": {
+              "spending": 425.9588345200009,
+              "beneficiaries": 838337
+            },
+            "45_to_64": {
+              "spending": 1031.641049310015,
+              "beneficiaries": 1141573
+            },
+            "65_and_older": {
+              "spending": 3088.377541020002,
+              "beneficiaries": 1607514
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "rural": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "q2": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "q3": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "q4": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "q5_highest": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            }
+          }
+        }
+      },
+      "2022": {
+        "spending": 4912.61,
+        "beneficiaries": 5505549,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 2505.9025119300168,
+              "beneficiaries": 2998595
+            },
+            "male": {
+              "spending": 2406.7063482800213,
+              "beneficiaries": 2506954
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 186.17994501999812,
+              "beneficiaries": 701579
+            },
+            "25_to_44": {
+              "spending": 446.3485297699944,
+              "beneficiaries": 1336731
+            },
+            "45_to_64": {
+              "spending": 1032.409616420018,
+              "beneficiaries": 1713376
+            },
+            "65_and_older": {
+              "spending": 3247.670769000027,
+              "beneficiaries": 1753863
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "rural": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "q2": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "q3": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "q4": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "q5_highest": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            }
+          }
+        }
+      },
+      "2023": {
+        "spending": 5133.17,
+        "beneficiaries": 4075366,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 2599.811189229996,
+              "beneficiaries": 2309379
+            },
+            "male": {
+              "spending": 2533.3606588299963,
+              "beneficiaries": 1765987
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 192.491812799999,
+              "beneficiaries": 544521
+            },
+            "25_to_44": {
+              "spending": 444.3121533399973,
+              "beneficiaries": 775079
+            },
+            "45_to_64": {
+              "spending": 1018.9530555800039,
+              "beneficiaries": 1039323
+            },
+            "65_and_older": {
+              "spending": 3477.414826339993,
+              "beneficiaries": 1716443
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "rural": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "q2": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "q3": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "q4": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "q5_highest": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            }
+          }
+        }
+      },
+      "2024": {
+        "spending": 5576.49,
+        "beneficiaries": 3968828,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 2810.25076771,
+              "beneficiaries": 2253538
+            },
+            "male": {
+              "spending": 2766.236665909998,
+              "beneficiaries": 1715290
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 208.8796900800009,
+              "beneficiaries": 557509
+            },
+            "25_to_44": {
+              "spending": 474.4393605199961,
+              "beneficiaries": 717575
+            },
+            "45_to_64": {
+              "spending": 1062.661460370006,
+              "beneficiaries": 939493
+            },
+            "65_and_older": {
+              "spending": 3830.506922649996,
+              "beneficiaries": 1754251
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "rural": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "q2": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "q3": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "q4": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            },
+            "q5_highest": {
+              "spending": 0.0,
+              "beneficiaries": 0
+            }
+          }
+        }
+      }
+    },
+    "BC": {
+      "2020": {
+        "spending": 1207.03,
+        "beneficiaries": 2887553,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 608.4363120400001,
+              "beneficiaries": 1599729
+            },
+            "male": {
+              "spending": 598.59738185,
+              "beneficiaries": 1287824
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 66.48809829999999,
+              "beneficiaries": 434679
+            },
+            "25_to_44": {
+              "spending": 261.2670436,
+              "beneficiaries": 719393
+            },
+            "45_to_64": {
+              "spending": 422.62436945999997,
+              "beneficiaries": 878909
+            },
+            "65_and_older": {
+              "spending": 456.6541825300002,
+              "beneficiaries": 854572
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 1070.98594502,
+              "beneficiaries": 2576847
+            },
+            "rural": {
+              "spending": 123.99748337000001,
+              "beneficiaries": 293254
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 366.6280856900001,
+              "beneficiaries": 577675
+            },
+            "q2": {
+              "spending": 268.98299714999996,
+              "beneficiaries": 588285
+            },
+            "q3": {
+              "spending": 214.94212693,
+              "beneficiaries": 573140
+            },
+            "q4": {
+              "spending": 183.3017894599999,
+              "beneficiaries": 559760
+            },
+            "q5_highest": {
+              "spending": 160.07907685,
+              "beneficiaries": 570141
+            }
+          }
+        }
+      },
+      "2021": {
+        "spending": 1246.56,
+        "beneficiaries": 2921180,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 628.0300972599999,
+              "beneficiaries": 1620596
+            },
+            "male": {
+              "spending": 618.53352774,
+              "beneficiaries": 1300584
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 66.97049743,
+              "beneficiaries": 417739
+            },
+            "25_to_44": {
+              "spending": 275.78504953,
+              "beneficiaries": 738537
+            },
+            "45_to_64": {
+              "spending": 425.0197673699999,
+              "beneficiaries": 877357
+            },
+            "65_and_older": {
+              "spending": 478.7883106700001,
+              "beneficiaries": 887547
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 1110.66877373,
+              "beneficiaries": 2608034
+            },
+            "rural": {
+              "spending": 125.27236691,
+              "beneficiaries": 297457
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 375.7774547300001,
+              "beneficiaries": 581582
+            },
+            "q2": {
+              "spending": 279.35266137000013,
+              "beneficiaries": 594484
+            },
+            "q3": {
+              "spending": 222.12909994,
+              "beneficiaries": 581010
+            },
+            "q4": {
+              "spending": 191.62475866999998,
+              "beneficiaries": 569602
+            },
+            "q5_highest": {
+              "spending": 166.09128219,
+              "beneficiaries": 577586
+            }
+          }
+        }
+      },
+      "2022": {
+        "spending": 1324.11,
+        "beneficiaries": 3269040,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 663.9018060500008,
+              "beneficiaries": 1799581
+            },
+            "male": {
+              "spending": 660.2049755300005,
+              "beneficiaries": 1469459
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 79.13099568999999,
+              "beneficiaries": 486502
+            },
+            "25_to_44": {
+              "spending": 307.18226600000014,
+              "beneficiaries": 837557
+            },
+            "45_to_64": {
+              "spending": 433.39065177000055,
+              "beneficiaries": 971469
+            },
+            "65_and_older": {
+              "spending": 504.40286812000073,
+              "beneficiaries": 973512
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 1181.0496590300008,
+              "beneficiaries": 2925562
+            },
+            "rural": {
+              "spending": 131.28002737,
+              "beneficiaries": 323406
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 392.9713157900007,
+              "beneficiaries": 644341
+            },
+            "q2": {
+              "spending": 296.67587755000045,
+              "beneficiaries": 660026
+            },
+            "q3": {
+              "spending": 237.9458291100002,
+              "beneficiaries": 649733
+            },
+            "q4": {
+              "spending": 205.4333909400001,
+              "beneficiaries": 641318
+            },
+            "q5_highest": {
+              "spending": 178.18042344999998,
+              "beneficiaries": 652134
+            }
+          }
+        }
+      },
+      "2023": {
+        "spending": 1449.75,
+        "beneficiaries": 3192234,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 735.3840878500001,
+              "beneficiaries": 1770790
+            },
+            "male": {
+              "spending": 714.3673721199999,
+              "beneficiaries": 1421444
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 99.09957208000003,
+              "beneficiaries": 503973
+            },
+            "25_to_44": {
+              "spending": 350.66040039999996,
+              "beneficiaries": 829819
+            },
+            "45_to_64": {
+              "spending": 470.25211163,
+              "beneficiaries": 902349
+            },
+            "65_and_older": {
+              "spending": 529.7393758600001,
+              "beneficiaries": 956093
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 1291.50037023,
+              "beneficiaries": 2850064
+            },
+            "rural": {
+              "spending": 144.98001388999998,
+              "beneficiaries": 319435
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 427.1572612300001,
+              "beneficiaries": 630322
+            },
+            "q2": {
+              "spending": 320.20896211,
+              "beneficiaries": 644124
+            },
+            "q3": {
+              "spending": 260.7497788799999,
+              "beneficiaries": 634431
+            },
+            "q4": {
+              "spending": 227.18048170000012,
+              "beneficiaries": 625545
+            },
+            "q5_highest": {
+              "spending": 200.02523072,
+              "beneficiaries": 633650
+            }
+          }
+        }
+      },
+      "2024": {
+        "spending": 1612.84,
+        "beneficiaries": 3305691,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 825.18915118,
+              "beneficiaries": 1833988
+            },
+            "male": {
+              "spending": 787.6533205400001,
+              "beneficiaries": 1471703
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 113.80888856,
+              "beneficiaries": 529231
+            },
+            "25_to_44": {
+              "spending": 393.75756247000004,
+              "beneficiaries": 869963
+            },
+            "45_to_64": {
+              "spending": 514.3250438399999,
+              "beneficiaries": 915976
+            },
+            "65_and_older": {
+              "spending": 590.95097685,
+              "beneficiaries": 990521
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 1434.7251698399998,
+              "beneficiaries": 2955028
+            },
+            "rural": {
+              "spending": 162.7248315999999,
+              "beneficiaries": 328135
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 466.44409038,
+              "beneficiaries": 651474
+            },
+            "q2": {
+              "spending": 355.57967338,
+              "beneficiaries": 666363
+            },
+            "q3": {
+              "spending": 293.09934605,
+              "beneficiaries": 658549
+            },
+            "q4": {
+              "spending": 255.29672296,
+              "beneficiaries": 649561
+            },
+            "q5_highest": {
+              "spending": 225.4148525,
+              "beneficiaries": 655568
+            }
+          }
+        }
+      }
+    },
+    "AB": {
+      "2020": {
+        "spending": 986.36,
+        "beneficiaries": 640430,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 511.37131735,
+              "beneficiaries": 351279
+            },
+            "male": {
+              "spending": 474.98538955000004,
+              "beneficiaries": 289151
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 26.33249959999999,
+              "beneficiaries": 10112
+            },
+            "25_to_44": {
+              "spending": 102.43288378,
+              "beneficiaries": 13340
+            },
+            "45_to_64": {
+              "spending": 172.82118858,
+              "beneficiaries": 63332
+            },
+            "65_and_older": {
+              "spending": 684.77013494,
+              "beneficiaries": 553646
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 755.2786128500002,
+              "beneficiaries": 491120
+            },
+            "rural": {
+              "spending": 192.87151806999998,
+              "beneficiaries": 128030
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 209.81445062,
+              "beneficiaries": 131350
+            },
+            "q2": {
+              "spending": 206.50078678999998,
+              "beneficiaries": 133882
+            },
+            "q3": {
+              "spending": 185.53325956999998,
+              "beneficiaries": 120933
+            },
+            "q4": {
+              "spending": 170.6980227,
+              "beneficiaries": 109699
+            },
+            "q5_highest": {
+              "spending": 175.20965719999998,
+              "beneficiaries": 123056
+            }
+          }
+        }
+      },
+      "2021": {
+        "spending": 992.81,
+        "beneficiaries": 642497,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 515.6438660100001,
+              "beneficiaries": 345189
+            },
+            "male": {
+              "spending": 477.1706792700001,
+              "beneficiaries": 297308
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 26.19897812,
+              "beneficiaries": 8689
+            },
+            "25_to_44": {
+              "spending": 93.10047066000003,
+              "beneficiaries": 13226
+            },
+            "45_to_64": {
+              "spending": 160.46750061,
+              "beneficiaries": 41603
+            },
+            "65_and_older": {
+              "spending": 713.0475958900001,
+              "beneficiaries": 578979
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 761.2490738300002,
+              "beneficiaries": 493797
+            },
+            "rural": {
+              "spending": 189.36730778,
+              "beneficiaries": 125578
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 208.82787343,
+              "beneficiaries": 130321
+            },
+            "q2": {
+              "spending": 209.30543274000001,
+              "beneficiaries": 133221
+            },
+            "q3": {
+              "spending": 186.10867262,
+              "beneficiaries": 121052
+            },
+            "q4": {
+              "spending": 168.06956773,
+              "beneficiaries": 110479
+            },
+            "q5_highest": {
+              "spending": 177.86696311,
+              "beneficiaries": 124025
+            }
+          }
+        }
+      },
+      "2022": {
+        "spending": 1098.48,
+        "beneficiaries": 672758,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 565.23425485,
+              "beneficiaries": 360980
+            },
+            "male": {
+              "spending": 533.2488711500001,
+              "beneficiaries": 311778
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 44.324910630000005,
+              "beneficiaries": 9698
+            },
+            "25_to_44": {
+              "spending": 105.76004847,
+              "beneficiaries": 13345
+            },
+            "45_to_64": {
+              "spending": 161.54875407,
+              "beneficiaries": 39300
+            },
+            "65_and_older": {
+              "spending": 786.8494128300001,
+              "beneficiaries": 610415
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 845.4909589299999,
+              "beneficiaries": 519237
+            },
+            "rural": {
+              "spending": 203.21769681,
+              "beneficiaries": 127743
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 226.0287502200001,
+              "beneficiaries": 133530
+            },
+            "q2": {
+              "spending": 228.28857308000002,
+              "beneficiaries": 138000
+            },
+            "q3": {
+              "spending": 205.3106561,
+              "beneficiaries": 126958
+            },
+            "q4": {
+              "spending": 188.48221477,
+              "beneficiaries": 117002
+            },
+            "q5_highest": {
+              "spending": 200.14829687,
+              "beneficiaries": 131254
+            }
+          }
+        }
+      },
+      "2023": {
+        "spending": 1208.98,
+        "beneficiaries": 704162,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 622.09047757,
+              "beneficiaries": 377682
+            },
+            "male": {
+              "spending": 586.8899665299999,
+              "beneficiaries": 326480
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 57.90776448000002,
+              "beneficiaries": 10003
+            },
+            "25_to_44": {
+              "spending": 118.77624925,
+              "beneficiaries": 13786
+            },
+            "45_to_64": {
+              "spending": 174.1384230500001,
+              "beneficiaries": 37646
+            },
+            "65_and_older": {
+              "spending": 858.1580073199999,
+              "beneficiaries": 642727
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 932.7381733000002,
+              "beneficiaries": 545313
+            },
+            "rural": {
+              "spending": 219.97857285000012,
+              "beneficiaries": 130280
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 243.01826389,
+              "beneficiaries": 136766
+            },
+            "q2": {
+              "spending": 250.7187034400001,
+              "beneficiaries": 143517
+            },
+            "q3": {
+              "spending": 224.49495253,
+              "beneficiaries": 132568
+            },
+            "q4": {
+              "spending": 209.4786780200001,
+              "beneficiaries": 123497
+            },
+            "q5_highest": {
+              "spending": 224.5901702699999,
+              "beneficiaries": 139024
+            }
+          }
+        }
+      },
+      "2024": {
+        "spending": 1372.92,
+        "beneficiaries": 739117,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 704.5963029100001,
+              "beneficiaries": 396140
+            },
+            "male": {
+              "spending": 668.31961524,
+              "beneficiaries": 342977
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 71.06155238,
+              "beneficiaries": 10504
+            },
+            "25_to_44": {
+              "spending": 142.52012253,
+              "beneficiaries": 14921
+            },
+            "45_to_64": {
+              "spending": 198.83256239,
+              "beneficiaries": 37524
+            },
+            "65_and_older": {
+              "spending": 960.5016808500002,
+              "beneficiaries": 676168
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 1063.61285077,
+              "beneficiaries": 573966
+            },
+            "rural": {
+              "spending": 244.70101409999998,
+              "beneficiaries": 133587
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 266.6604515,
+              "beneficiaries": 140924
+            },
+            "q2": {
+              "spending": 283.06422338,
+              "beneficiaries": 148661
+            },
+            "q3": {
+              "spending": 257.53520684,
+              "beneficiaries": 139481
+            },
+            "q4": {
+              "spending": 240.86022631,
+              "beneficiaries": 130859
+            },
+            "q5_highest": {
+              "spending": 259.72837357,
+              "beneficiaries": 147370
+            }
+          }
+        }
+      }
+    },
+    "MB": {
+      "2020": {
+        "spending": 382.34,
+        "beneficiaries": 804123,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 199.71133753,
+              "beneficiaries": 442631
+            },
+            "male": {
+              "spending": 182.6263156,
+              "beneficiaries": 361492
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 24.36587428,
+              "beneficiaries": 157035
+            },
+            "25_to_44": {
+              "spending": 74.83426308000001,
+              "beneficiaries": 201188
+            },
+            "45_to_64": {
+              "spending": 135.07792371000002,
+              "beneficiaries": 239357
+            },
+            "65_and_older": {
+              "spending": 148.05959206,
+              "beneficiaries": 206543
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 289.73898122,
+              "beneficiaries": 596161
+            },
+            "rural": {
+              "spending": 90.93624679999999,
+              "beneficiaries": 205533
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 94.89539153999998,
+              "beneficiaries": 136755
+            },
+            "q2": {
+              "spending": 79.23152635000001,
+              "beneficiaries": 159300
+            },
+            "q3": {
+              "spending": 73.34931538000002,
+              "beneficiaries": 164215
+            },
+            "q4": {
+              "spending": 68.65970923000002,
+              "beneficiaries": 167663
+            },
+            "q5_highest": {
+              "spending": 64.47979764,
+              "beneficiaries": 173373
+            }
+          }
+        }
+      },
+      "2021": {
+        "spending": 413.51,
+        "beneficiaries": 797113,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 216.85280185,
+              "beneficiaries": 439157
+            },
+            "male": {
+              "spending": 196.6607056499999,
+              "beneficiaries": 357956
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 27.22389794,
+              "beneficiaries": 148533
+            },
+            "25_to_44": {
+              "spending": 79.78529833000002,
+              "beneficiaries": 198938
+            },
+            "45_to_64": {
+              "spending": 145.44644215,
+              "beneficiaries": 237507
+            },
+            "65_and_older": {
+              "spending": 161.0578690799999,
+              "beneficiaries": 212135
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 312.23655589,
+              "beneficiaries": 591262
+            },
+            "rural": {
+              "spending": 98.25892162,
+              "beneficiaries": 202938
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 99.97345204999996,
+              "beneficiaries": 132698
+            },
+            "q2": {
+              "spending": 83.83631600999999,
+              "beneficiaries": 156768
+            },
+            "q3": {
+              "spending": 79.65903807999999,
+              "beneficiaries": 163805
+            },
+            "q4": {
+              "spending": 76.74252566,
+              "beneficiaries": 167333
+            },
+            "q5_highest": {
+              "spending": 70.25633968,
+              "beneficiaries": 173206
+            }
+          }
+        }
+      },
+      "2022": {
+        "spending": 453.3,
+        "beneficiaries": 851130,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 231.2740685399999,
+              "beneficiaries": 465090
+            },
+            "male": {
+              "spending": 222.0251434300001,
+              "beneficiaries": 386040
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 35.964753200000004,
+              "beneficiaries": 180816
+            },
+            "25_to_44": {
+              "spending": 87.38856971999999,
+              "beneficiaries": 209320
+            },
+            "45_to_64": {
+              "spending": 150.15731835,
+              "beneficiaries": 241021
+            },
+            "65_and_older": {
+              "spending": 179.78857069999998,
+              "beneficiaries": 219973
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 342.1661021200001,
+              "beneficiaries": 633439
+            },
+            "rural": {
+              "spending": 107.87466508,
+              "beneficiaries": 214446
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 104.11816837,
+              "beneficiaries": 140596
+            },
+            "q2": {
+              "spending": 91.14940478999999,
+              "beneficiaries": 165972
+            },
+            "q3": {
+              "spending": 88.52566709,
+              "beneficiaries": 176436
+            },
+            "q4": {
+              "spending": 86.08077448999998,
+              "beneficiaries": 179094
+            },
+            "q5_highest": {
+              "spending": 80.13968194,
+              "beneficiaries": 185353
+            }
+          }
+        }
+      },
+      "2023": {
+        "spending": 489.94,
+        "beneficiaries": 874403,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 247.51835363,
+              "beneficiaries": 476546
+            },
+            "male": {
+              "spending": 242.42355429,
+              "beneficiaries": 397857
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 40.346012380000005,
+              "beneficiaries": 186518
+            },
+            "25_to_44": {
+              "spending": 92.81720457999998,
+              "beneficiaries": 217817
+            },
+            "45_to_64": {
+              "spending": 158.07057636000002,
+              "beneficiaries": 244076
+            },
+            "65_and_older": {
+              "spending": 198.7081146,
+              "beneficiaries": 225992
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 370.86886708,
+              "beneficiaries": 655948
+            },
+            "rural": {
+              "spending": 116.56803855,
+              "beneficiaries": 216200
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 107.81260786,
+              "beneficiaries": 141768
+            },
+            "q2": {
+              "spending": 97.63900549000002,
+              "beneficiaries": 171299
+            },
+            "q3": {
+              "spending": 97.04159795000002,
+              "beneficiaries": 182878
+            },
+            "q4": {
+              "spending": 95.75921878999999,
+              "beneficiaries": 184578
+            },
+            "q5_highest": {
+              "spending": 89.15061360000001,
+              "beneficiaries": 191194
+            }
+          }
+        }
+      },
+      "2024": {
+        "spending": 555.64,
+        "beneficiaries": 900749,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 283.84792808,
+              "beneficiaries": 489995
+            },
+            "male": {
+              "spending": 271.78902268999985,
+              "beneficiaries": 410754
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 45.66195795,
+              "beneficiaries": 191613
+            },
+            "25_to_44": {
+              "spending": 105.86925112,
+              "beneficiaries": 228221
+            },
+            "45_to_64": {
+              "spending": 175.93665672,
+              "beneficiaries": 247305
+            },
+            "65_and_older": {
+              "spending": 228.16908497999998,
+              "beneficiaries": 233610
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 421.5744937300001,
+              "beneficiaries": 677230
+            },
+            "rural": {
+              "spending": 131.79408801,
+              "beneficiaries": 221563
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 119.48727106,
+              "beneficiaries": 146102
+            },
+            "q2": {
+              "spending": 110.32939945,
+              "beneficiaries": 175681
+            },
+            "q3": {
+              "spending": 111.5068166,
+              "beneficiaries": 189895
+            },
+            "q4": {
+              "spending": 107.17053646,
+              "beneficiaries": 189708
+            },
+            "q5_highest": {
+              "spending": 104.82138261,
+              "beneficiaries": 196933
+            }
+          }
+        }
+      }
+    },
+    "SK": {
+      "2020": {
+        "spending": 438.98,
+        "beneficiaries": 757493,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 221.56011230000001,
+              "beneficiaries": 408875
+            },
+            "male": {
+              "spending": 217.4227815000001,
+              "beneficiaries": 348618
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 40.239070029999986,
+              "beneficiaries": 167900
+            },
+            "25_to_44": {
+              "spending": 94.46008615,
+              "beneficiaries": 192618
+            },
+            "45_to_64": {
+              "spending": 136.30360524,
+              "beneficiaries": 212880
+            },
+            "65_and_older": {
+              "spending": 167.98013238,
+              "beneficiaries": 184095
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 300.26224354000004,
+              "beneficiaries": 517590
+            },
+            "rural": {
+              "spending": 136.23021197,
+              "beneficiaries": 237906
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 97.10555283000001,
+              "beneficiaries": 134719
+            },
+            "q2": {
+              "spending": 101.42444681,
+              "beneficiaries": 153321
+            },
+            "q3": {
+              "spending": 83.03596810999998,
+              "beneficiaries": 153047
+            },
+            "q4": {
+              "spending": 72.30663034,
+              "beneficiaries": 147339
+            },
+            "q5_highest": {
+              "spending": 80.35290861,
+              "beneficiaries": 164074
+            }
+          }
+        }
+      },
+      "2021": {
+        "spending": 484.46,
+        "beneficiaries": 825088,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 246.76527659,
+              "beneficiaries": 432740
+            },
+            "male": {
+              "spending": 237.69637629,
+              "beneficiaries": 392348
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 46.2387395,
+              "beneficiaries": 179311
+            },
+            "25_to_44": {
+              "spending": 105.06110523999999,
+              "beneficiaries": 228019
+            },
+            "45_to_64": {
+              "spending": 146.92740628,
+              "beneficiaries": 224896
+            },
+            "65_and_older": {
+              "spending": 186.23440186000002,
+              "beneficiaries": 192862
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 331.95667079000003,
+              "beneficiaries": 566021
+            },
+            "rural": {
+              "spending": 149.92402409000002,
+              "beneficiaries": 255469
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 103.15364414,
+              "beneficiaries": 145821
+            },
+            "q2": {
+              "spending": 108.72252914,
+              "beneficiaries": 166627
+            },
+            "q3": {
+              "spending": 92.93999874000002,
+              "beneficiaries": 167447
+            },
+            "q4": {
+              "spending": 83.64303505999999,
+              "beneficiaries": 159914
+            },
+            "q5_highest": {
+              "spending": 91.11109934000001,
+              "beneficiaries": 178483
+            }
+          }
+        }
+      },
+      "2022": {
+        "spending": 533.86,
+        "beneficiaries": 805178,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 270.80506849,
+              "beneficiaries": 430370
+            },
+            "male": {
+              "spending": 263.05920937,
+              "beneficiaries": 374808
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 63.505891889999994,
+              "beneficiaries": 189628
+            },
+            "25_to_44": {
+              "spending": 115.7921111,
+              "beneficiaries": 202354
+            },
+            "45_to_64": {
+              "spending": 155.42547159999998,
+              "beneficiaries": 215847
+            },
+            "65_and_older": {
+              "spending": 199.14080327000002,
+              "beneficiaries": 197349
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 364.97834508,
+              "beneficiaries": 556410
+            },
+            "rural": {
+              "spending": 166.35466236000002,
+              "beneficiaries": 246149
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 109.96752487,
+              "beneficiaries": 141648
+            },
+            "q2": {
+              "spending": 118.84769943,
+              "beneficiaries": 162344
+            },
+            "q3": {
+              "spending": 102.49402798999999,
+              "beneficiaries": 164828
+            },
+            "q4": {
+              "spending": 91.99140945999999,
+              "beneficiaries": 156379
+            },
+            "q5_highest": {
+              "spending": 104.73663312000001,
+              "beneficiaries": 174371
+            }
+          }
+        }
+      },
+      "2023": {
+        "spending": 541.76,
+        "beneficiaries": 791848,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 271.30496625999984,
+              "beneficiaries": 425371
+            },
+            "male": {
+              "spending": 270.45510686,
+              "beneficiaries": 366477
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 70.23195426000001,
+              "beneficiaries": 181979
+            },
+            "25_to_44": {
+              "spending": 112.65236277,
+              "beneficiaries": 198117
+            },
+            "45_to_64": {
+              "spending": 154.04111274000002,
+              "beneficiaries": 210877
+            },
+            "65_and_older": {
+              "spending": 204.8346433499999,
+              "beneficiaries": 200875
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 370.38278883,
+              "beneficiaries": 547539
+            },
+            "rural": {
+              "spending": 168.65965685,
+              "beneficiaries": 242256
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 112.41673283,
+              "beneficiaries": 139893
+            },
+            "q2": {
+              "spending": 119.69152889,
+              "beneficiaries": 159767
+            },
+            "q3": {
+              "spending": 103.18595908,
+              "beneficiaries": 162495
+            },
+            "q4": {
+              "spending": 93.58397755000001,
+              "beneficiaries": 153176
+            },
+            "q5_highest": {
+              "spending": 106.64265707,
+              "beneficiaries": 171512
+            }
+          }
+        }
+      },
+      "2024": {
+        "spending": 584.36,
+        "beneficiaries": 808270,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 294.16664584,
+              "beneficiaries": 434403
+            },
+            "male": {
+              "spending": 290.1917469,
+              "beneficiaries": 373867
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 75.88850194,
+              "beneficiaries": 186417
+            },
+            "25_to_44": {
+              "spending": 123.20663256,
+              "beneficiaries": 204003
+            },
+            "45_to_64": {
+              "spending": 165.83303921,
+              "beneficiaries": 211785
+            },
+            "65_and_older": {
+              "spending": 219.43021903,
+              "beneficiaries": 206065
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 400.03969507,
+              "beneficiaries": 560513
+            },
+            "rural": {
+              "spending": 181.4201282,
+              "beneficiaries": 245712
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 121.09261491,
+              "beneficiaries": 143185
+            },
+            "q2": {
+              "spending": 127.32288703,
+              "beneficiaries": 162369
+            },
+            "q3": {
+              "spending": 114.34417806,
+              "beneficiaries": 166457
+            },
+            "q4": {
+              "spending": 98.88828768,
+              "beneficiaries": 156100
+            },
+            "q5_highest": {
+              "spending": 116.31323081999999,
+              "beneficiaries": 175067
+            }
+          }
+        }
+      }
+    },
+    "NS": {
+      "2020": {
+        "spending": 308.35,
+        "beneficiaries": 187032,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 157.75895577,
+              "beneficiaries": 105087
+            },
+            "male": {
+              "spending": 150.59145614,
+              "beneficiaries": 81945
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 10.607110449999999,
+              "beneficiaries": 10507
+            },
+            "25_to_44": {
+              "spending": 39.033280529999985,
+              "beneficiaries": 15910
+            },
+            "45_to_64": {
+              "spending": 61.324523599999985,
+              "beneficiaries": 27367
+            },
+            "65_and_older": {
+              "spending": 197.38549733000002,
+              "beneficiaries": 133248
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 196.78556873,
+              "beneficiaries": 114368
+            },
+            "rural": {
+              "spending": 110.59812768,
+              "beneficiaries": 72049
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 79.18153251,
+              "beneficiaries": 45099
+            },
+            "q2": {
+              "spending": 73.84004815,
+              "beneficiaries": 43828
+            },
+            "q3": {
+              "spending": 54.76405853999999,
+              "beneficiaries": 35684
+            },
+            "q4": {
+              "spending": 54.760822899999994,
+              "beneficiaries": 33955
+            },
+            "q5_highest": {
+              "spending": 44.80188755999999,
+              "beneficiaries": 27804
+            }
+          }
+        }
+      },
+      "2021": {
+        "spending": 313.26,
+        "beneficiaries": 188258,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 162.31825578,
+              "beneficiaries": 105620
+            },
+            "male": {
+              "spending": 150.94663867,
+              "beneficiaries": 82638
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 8.98698439,
+              "beneficiaries": 9275
+            },
+            "25_to_44": {
+              "spending": 39.274091240000004,
+              "beneficiaries": 15265
+            },
+            "45_to_64": {
+              "spending": 61.68538695,
+              "beneficiaries": 26546
+            },
+            "65_and_older": {
+              "spending": 203.31843187,
+              "beneficiaries": 137172
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 199.59982758,
+              "beneficiaries": 115159
+            },
+            "rural": {
+              "spending": 112.97493151,
+              "beneficiaries": 72583
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 79.68382462999998,
+              "beneficiaries": 44450
+            },
+            "q2": {
+              "spending": 74.81156467999998,
+              "beneficiaries": 44019
+            },
+            "q3": {
+              "spending": 56.89297222999999,
+              "beneficiaries": 36142
+            },
+            "q4": {
+              "spending": 55.377630280000005,
+              "beneficiaries": 34657
+            },
+            "q5_highest": {
+              "spending": 45.77085125,
+              "beneficiaries": 28435
+            }
+          }
+        }
+      },
+      "2022": {
+        "spending": 333.13,
+        "beneficiaries": 192956,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 172.21152284000001,
+              "beneficiaries": 108000
+            },
+            "male": {
+              "spending": 160.92245539999988,
+              "beneficiaries": 84956
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 9.52889031,
+              "beneficiaries": 9937
+            },
+            "25_to_44": {
+              "spending": 39.97010109000001,
+              "beneficiaries": 15451
+            },
+            "45_to_64": {
+              "spending": 61.571057400000015,
+              "beneficiaries": 26184
+            },
+            "65_and_older": {
+              "spending": 222.06392944,
+              "beneficiaries": 141384
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 212.07708475,
+              "beneficiaries": 118039
+            },
+            "rural": {
+              "spending": 120.07508359,
+              "beneficiaries": 74373
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 82.96711591000002,
+              "beneficiaries": 45341
+            },
+            "q2": {
+              "spending": 79.92363763000002,
+              "beneficiaries": 44752
+            },
+            "q3": {
+              "spending": 62.107434720000015,
+              "beneficiaries": 37269
+            },
+            "q4": {
+              "spending": 58.40802791999999,
+              "beneficiaries": 35774
+            },
+            "q5_highest": {
+              "spending": 48.705757430000006,
+              "beneficiaries": 29235
+            }
+          }
+        }
+      },
+      "2023": {
+        "spending": 365.66,
+        "beneficiaries": 196648,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 186.92332750999998,
+              "beneficiaries": 109988
+            },
+            "male": {
+              "spending": 178.74152922,
+              "beneficiaries": 86660
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 9.83574367,
+              "beneficiaries": 10286
+            },
+            "25_to_44": {
+              "spending": 44.33789226000002,
+              "beneficiaries": 15708
+            },
+            "45_to_64": {
+              "spending": 64.75563222,
+              "beneficiaries": 26079
+            },
+            "65_and_older": {
+              "spending": 246.73558858,
+              "beneficiaries": 144575
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 232.25548941,
+              "beneficiaries": 120429
+            },
+            "rural": {
+              "spending": 132.4605125,
+              "beneficiaries": 75700
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 90.93614275,
+              "beneficiaries": 45851
+            },
+            "q2": {
+              "spending": 86.88253605000001,
+              "beneficiaries": 45431
+            },
+            "q3": {
+              "spending": 66.10207957,
+              "beneficiaries": 38032
+            },
+            "q4": {
+              "spending": 66.92495706999999,
+              "beneficiaries": 36729
+            },
+            "q5_highest": {
+              "spending": 53.82185469000001,
+              "beneficiaries": 30043
+            }
+          }
+        }
+      },
+      "2024": {
+        "spending": 413.16,
+        "beneficiaries": 202128,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 211.36235459,
+              "beneficiaries": 112845
+            },
+            "male": {
+              "spending": 201.80028637,
+              "beneficiaries": 89283
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 10.5816646,
+              "beneficiaries": 10689
+            },
+            "25_to_44": {
+              "spending": 50.07974874,
+              "beneficiaries": 16490
+            },
+            "45_to_64": {
+              "spending": 71.56487996000001,
+              "beneficiaries": 26504
+            },
+            "65_and_older": {
+              "spending": 280.93634766,
+              "beneficiaries": 148445
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 259.46277853,
+              "beneficiaries": 123672
+            },
+            "rural": {
+              "spending": 152.31886121,
+              "beneficiaries": 77838
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 100.03373745,
+              "beneficiaries": 46464
+            },
+            "q2": {
+              "spending": 97.59934169,
+              "beneficiaries": 46530
+            },
+            "q3": {
+              "spending": 76.88047718999997,
+              "beneficiaries": 39342
+            },
+            "q4": {
+              "spending": 76.42023054,
+              "beneficiaries": 38080
+            },
+            "q5_highest": {
+              "spending": 60.65290475,
+              "beneficiaries": 31047
+            }
+          }
+        }
+      }
+    },
+    "NB": {
+      "2020": {
+        "spending": 283.22,
+        "beneficiaries": 123583,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 144.17445526,
+              "beneficiaries": 69101
+            },
+            "male": {
+              "spending": 139.04310130000002,
+              "beneficiaries": 54482
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 10.83622959,
+              "beneficiaries": 8708
+            },
+            "25_to_44": {
+              "spending": 42.74861596000001,
+              "beneficiaries": 12272
+            },
+            "45_to_64": {
+              "spending": 74.43887792000001,
+              "beneficiaries": 20196
+            },
+            "65_and_older": {
+              "spending": 155.19383309,
+              "beneficiaries": 82407
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 162.82827964000012,
+              "beneficiaries": 68487
+            },
+            "rural": {
+              "spending": 117.15759265999999,
+              "beneficiaries": 53831
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 85.15272110000002,
+              "beneficiaries": 37676
+            },
+            "q2": {
+              "spending": 65.25859476,
+              "beneficiaries": 28401
+            },
+            "q3": {
+              "spending": 52.58216976,
+              "beneficiaries": 23455
+            },
+            "q4": {
+              "spending": 45.91590909000001,
+              "beneficiaries": 19402
+            },
+            "q5_highest": {
+              "spending": 31.04948807,
+              "beneficiaries": 13361
+            }
+          }
+        }
+      },
+      "2021": {
+        "spending": 294.58,
+        "beneficiaries": 121602,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 152.34686627000002,
+              "beneficiaries": 67889
+            },
+            "male": {
+              "spending": 142.2283329,
+              "beneficiaries": 53713
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 10.67451115,
+              "beneficiaries": 7776
+            },
+            "25_to_44": {
+              "spending": 44.49962211999999,
+              "beneficiaries": 11315
+            },
+            "45_to_64": {
+              "spending": 76.62897568000002,
+              "beneficiaries": 19479
+            },
+            "65_and_older": {
+              "spending": 162.77209022,
+              "beneficiaries": 83032
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 167.40737905,
+              "beneficiaries": 66809
+            },
+            "rural": {
+              "spending": 121.83589074,
+              "beneficiaries": 53165
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 87.35251507,
+              "beneficiaries": 36431
+            },
+            "q2": {
+              "spending": 65.84073964000002,
+              "beneficiaries": 27680
+            },
+            "q3": {
+              "spending": 55.30075228999999,
+              "beneficiaries": 23198
+            },
+            "q4": {
+              "spending": 46.5169446,
+              "beneficiaries": 19118
+            },
+            "q5_highest": {
+              "spending": 34.21963612999999,
+              "beneficiaries": 13532
+            }
+          }
+        }
+      },
+      "2022": {
+        "spending": 316.07,
+        "beneficiaries": 125783,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 160.7602319200001,
+              "beneficiaries": 69796
+            },
+            "male": {
+              "spending": 155.31058145,
+              "beneficiaries": 55987
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 15.67727234,
+              "beneficiaries": 9238
+            },
+            "25_to_44": {
+              "spending": 49.82366384,
+              "beneficiaries": 12336
+            },
+            "45_to_64": {
+              "spending": 78.37975913000001,
+              "beneficiaries": 20016
+            },
+            "65_and_older": {
+              "spending": 172.19011806,
+              "beneficiaries": 84193
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 179.89635058000002,
+              "beneficiaries": 68876
+            },
+            "rural": {
+              "spending": 129.94472908,
+              "beneficiaries": 54994
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 90.43227208999997,
+              "beneficiaries": 37627
+            },
+            "q2": {
+              "spending": 72.15567997,
+              "beneficiaries": 28632
+            },
+            "q3": {
+              "spending": 59.761769160000014,
+              "beneficiaries": 23830
+            },
+            "q4": {
+              "spending": 51.232724520000005,
+              "beneficiaries": 19776
+            },
+            "q5_highest": {
+              "spending": 36.24033409000001,
+              "beneficiaries": 13982
+            }
+          }
+        }
+      },
+      "2023": {
+        "spending": 341.45,
+        "beneficiaries": 126830,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 173.94651771,
+              "beneficiaries": 70388
+            },
+            "male": {
+              "spending": 167.50490643,
+              "beneficiaries": 56442
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 20.92521252,
+              "beneficiaries": 9525
+            },
+            "25_to_44": {
+              "spending": 51.332126960000004,
+              "beneficiaries": 12587
+            },
+            "45_to_64": {
+              "spending": 83.91213010999998,
+              "beneficiaries": 19763
+            },
+            "65_and_older": {
+              "spending": 185.28195455000002,
+              "beneficiaries": 84955
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 192.95319561000002,
+              "beneficiaries": 69563
+            },
+            "rural": {
+              "spending": 141.37973530000002,
+              "beneficiaries": 55288
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 93.28844061000001,
+              "beneficiaries": 37729
+            },
+            "q2": {
+              "spending": 81.19855062,
+              "beneficiaries": 28908
+            },
+            "q3": {
+              "spending": 64.33223382000003,
+              "beneficiaries": 24025
+            },
+            "q4": {
+              "spending": 54.94726608000001,
+              "beneficiaries": 19972
+            },
+            "q5_highest": {
+              "spending": 40.49312382000001,
+              "beneficiaries": 14186
+            }
+          }
+        }
+      },
+      "2024": {
+        "spending": 376.34,
+        "beneficiaries": 130458,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 191.17698287000002,
+              "beneficiaries": 72259
+            },
+            "male": {
+              "spending": 185.15810213,
+              "beneficiaries": 58199
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 26.28936834999999,
+              "beneficiaries": 10557
+            },
+            "25_to_44": {
+              "spending": 53.40417069,
+              "beneficiaries": 13439
+            },
+            "45_to_64": {
+              "spending": 91.10726325999998,
+              "beneficiaries": 20050
+            },
+            "65_and_older": {
+              "spending": 205.53428269999998,
+              "beneficiaries": 86412
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 215.00213745,
+              "beneficiaries": 72217
+            },
+            "rural": {
+              "spending": 156.31200519,
+              "beneficiaries": 56550
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 101.54590578,
+              "beneficiaries": 38873
+            },
+            "q2": {
+              "spending": 90.09236241999997,
+              "beneficiaries": 29621
+            },
+            "q3": {
+              "spending": 71.21676986000001,
+              "beneficiaries": 24876
+            },
+            "q4": {
+              "spending": 60.394088659999994,
+              "beneficiaries": 20669
+            },
+            "q5_highest": {
+              "spending": 48.00856610999999,
+              "beneficiaries": 14704
+            }
+          }
+        }
+      }
+    },
+    "NL": {
+      "2020": {
+        "spending": 156.82,
+        "beneficiaries": 100344,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 85.16246526999998,
+              "beneficiaries": 57237
+            },
+            "male": {
+              "spending": 71.65661641000001,
+              "beneficiaries": 43107
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 6.050868680000001,
+              "beneficiaries": 10826
+            },
+            "25_to_44": {
+              "spending": 24.71017607,
+              "beneficiaries": 13809
+            },
+            "45_to_64": {
+              "spending": 42.615293140000006,
+              "beneficiaries": 19131
+            },
+            "65_and_older": {
+              "spending": 83.44274379000001,
+              "beneficiaries": 56578
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 63.6657476,
+              "beneficiaries": 38032
+            },
+            "rural": {
+              "spending": 92.07003885,
+              "beneficiaries": 61553
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 47.181421119999996,
+              "beneficiaries": 30236
+            },
+            "q2": {
+              "spending": 38.44853735,
+              "beneficiaries": 23482
+            },
+            "q3": {
+              "spending": 32.11144064999999,
+              "beneficiaries": 20921
+            },
+            "q4": {
+              "spending": 21.882821800000002,
+              "beneficiaries": 14649
+            },
+            "q5_highest": {
+              "spending": 14.681899609999999,
+              "beneficiaries": 9017
+            }
+          }
+        }
+      },
+      "2021": {
+        "spending": 167.71,
+        "beneficiaries": 96588,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 90.98543759,
+              "beneficiaries": 55099
+            },
+            "male": {
+              "spending": 76.72910418000002,
+              "beneficiaries": 41489
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 6.874569210000001,
+              "beneficiaries": 9273
+            },
+            "25_to_44": {
+              "spending": 27.88784461000001,
+              "beneficiaries": 12744
+            },
+            "45_to_64": {
+              "spending": 45.38804813,
+              "beneficiaries": 17809
+            },
+            "65_and_older": {
+              "spending": 87.56407981999999,
+              "beneficiaries": 56762
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 68.87898578000001,
+              "beneficiaries": 36435
+            },
+            "rural": {
+              "spending": 97.5670481,
+              "beneficiaries": 59449
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 49.84821600000002,
+              "beneficiaries": 28856
+            },
+            "q2": {
+              "spending": 40.019279270000006,
+              "beneficiaries": 22614
+            },
+            "q3": {
+              "spending": 35.195105120000015,
+              "beneficiaries": 20329
+            },
+            "q4": {
+              "spending": 24.14134524,
+              "beneficiaries": 14093
+            },
+            "q5_highest": {
+              "spending": 15.62096966,
+              "beneficiaries": 8766
+            }
+          }
+        }
+      },
+      "2022": {
+        "spending": 173.78,
+        "beneficiaries": 96622,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 92.12554757999999,
+              "beneficiaries": 54718
+            },
+            "male": {
+              "spending": 81.65399684000003,
+              "beneficiaries": 41904
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 9.50851904,
+              "beneficiaries": 9576
+            },
+            "25_to_44": {
+              "spending": 31.33613113000001,
+              "beneficiaries": 12212
+            },
+            "45_to_64": {
+              "spending": 44.59948862000001,
+              "beneficiaries": 16867
+            },
+            "65_and_older": {
+              "spending": 88.33540562999997,
+              "beneficiaries": 57967
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 73.35497642,
+              "beneficiaries": 36637
+            },
+            "rural": {
+              "spending": 98.72348672999999,
+              "beneficiaries": 59236
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 50.99686517000001,
+              "beneficiaries": 28865
+            },
+            "q2": {
+              "spending": 42.82110346,
+              "beneficiaries": 22525
+            },
+            "q3": {
+              "spending": 34.39097605,
+              "beneficiaries": 20203
+            },
+            "q4": {
+              "spending": 24.67279177,
+              "beneficiaries": 14282
+            },
+            "q5_highest": {
+              "spending": 17.59866795999999,
+              "beneficiaries": 8797
+            }
+          }
+        }
+      },
+      "2023": {
+        "spending": 186.6,
+        "beneficiaries": 98645,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 97.36932973999998,
+              "beneficiaries": 55702
+            },
+            "male": {
+              "spending": 89.22901367999998,
+              "beneficiaries": 42943
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 11.20863723,
+              "beneficiaries": 9667
+            },
+            "25_to_44": {
+              "spending": 34.95663839999998,
+              "beneficiaries": 12293
+            },
+            "45_to_64": {
+              "spending": 45.40008992,
+              "beneficiaries": 16676
+            },
+            "65_and_older": {
+              "spending": 95.03297787,
+              "beneficiaries": 60009
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 80.28632553999999,
+              "beneficiaries": 38145
+            },
+            "rural": {
+              "spending": 104.80584973,
+              "beneficiaries": 59722
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 54.27456891,
+              "beneficiaries": 29477
+            },
+            "q2": {
+              "spending": 44.468153489999985,
+              "beneficiaries": 22749
+            },
+            "q3": {
+              "spending": 37.13821298,
+              "beneficiaries": 20617
+            },
+            "q4": {
+              "spending": 26.988064699999992,
+              "beneficiaries": 14691
+            },
+            "q5_highest": {
+              "spending": 20.50688459,
+              "beneficiaries": 9146
+            }
+          }
+        }
+      },
+      "2024": {
+        "spending": 198.15,
+        "beneficiaries": 100837,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 103.2517941,
+              "beneficiaries": 56787
+            },
+            "male": {
+              "spending": 94.89630532,
+              "beneficiaries": 44050
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 11.75026192,
+              "beneficiaries": 9927
+            },
+            "25_to_44": {
+              "spending": 36.319516229999984,
+              "beneficiaries": 12334
+            },
+            "45_to_64": {
+              "spending": 48.19210543999999,
+              "beneficiaries": 16452
+            },
+            "65_and_older": {
+              "spending": 101.88621583,
+              "beneficiaries": 62124
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 85.50792929999999,
+              "beneficiaries": 39318
+            },
+            "rural": {
+              "spending": 111.39092973000001,
+              "beneficiaries": 60700
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 57.310496539999974,
+              "beneficiaries": 29871
+            },
+            "q2": {
+              "spending": 47.27202951000001,
+              "beneficiaries": 23626
+            },
+            "q3": {
+              "spending": 39.75555027,
+              "beneficiaries": 20924
+            },
+            "q4": {
+              "spending": 29.10119002999999,
+              "beneficiaries": 15025
+            },
+            "q5_highest": {
+              "spending": 21.7757906,
+              "beneficiaries": 9340
+            }
+          }
+        }
+      }
+    },
+    "PE": {
+      "2020": {
+        "spending": 39.16,
+        "beneficiaries": 49314,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 20.38969834,
+              "beneficiaries": 26619
+            },
+            "male": {
+              "spending": 18.76741748,
+              "beneficiaries": 22695
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 2.13111811,
+              "beneficiaries": 3743
+            },
+            "25_to_44": {
+              "spending": 5.946953020000001,
+              "beneficiaries": 5983
+            },
+            "45_to_64": {
+              "spending": 9.866152719999999,
+              "beneficiaries": 10015
+            },
+            "65_and_older": {
+              "spending": 21.212891969999998,
+              "beneficiaries": 29573
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 22.80435316,
+              "beneficiaries": 28461
+            },
+            "rural": {
+              "spending": 16.20026953,
+              "beneficiaries": 20664
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 9.66421914,
+              "beneficiaries": 11337
+            },
+            "q2": {
+              "spending": 8.646772349999997,
+              "beneficiaries": 11067
+            },
+            "q3": {
+              "spending": 8.116926540000003,
+              "beneficiaries": 9766
+            },
+            "q4": {
+              "spending": 7.35971365,
+              "beneficiaries": 9429
+            },
+            "q5_highest": {
+              "spending": 5.21687617,
+              "beneficiaries": 7525
+            }
+          }
+        }
+      },
+      "2021": {
+        "spending": 40.56,
+        "beneficiaries": 51396,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 20.777619089999998,
+              "beneficiaries": 28138
+            },
+            "male": {
+              "spending": 19.77762799,
+              "beneficiaries": 23258
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 2.0995049800000007,
+              "beneficiaries": 3685
+            },
+            "25_to_44": {
+              "spending": 6.003324009999999,
+              "beneficiaries": 6549
+            },
+            "45_to_64": {
+              "spending": 9.677352370000003,
+              "beneficiaries": 10450
+            },
+            "65_and_older": {
+              "spending": 22.775065719999997,
+              "beneficiaries": 30712
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 23.16841791,
+              "beneficiaries": 29761
+            },
+            "rural": {
+              "spending": 17.24556202,
+              "beneficiaries": 21447
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 9.789149930000004,
+              "beneficiaries": 11600
+            },
+            "q2": {
+              "spending": 9.18047274,
+              "beneficiaries": 11387
+            },
+            "q3": {
+              "spending": 8.845976340000002,
+              "beneficiaries": 10202
+            },
+            "q4": {
+              "spending": 7.769019719999998,
+              "beneficiaries": 10123
+            },
+            "q5_highest": {
+              "spending": 4.829361200000001,
+              "beneficiaries": 7896
+            }
+          }
+        }
+      },
+      "2022": {
+        "spending": 43.13,
+        "beneficiaries": 52273,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 22.63339782,
+              "beneficiaries": 28184
+            },
+            "male": {
+              "spending": 20.50008585,
+              "beneficiaries": 24089
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 2.4623592999999997,
+              "beneficiaries": 3955
+            },
+            "25_to_44": {
+              "spending": 6.16713585,
+              "beneficiaries": 6416
+            },
+            "45_to_64": {
+              "spending": 10.24892456,
+              "beneficiaries": 10078
+            },
+            "65_and_older": {
+              "spending": 24.25506396,
+              "beneficiaries": 31824
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 24.73387225,
+              "beneficiaries": 30251
+            },
+            "rural": {
+              "spending": 18.235667550000002,
+              "beneficiaries": 21821
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 10.440398759999999,
+              "beneficiaries": 11579
+            },
+            "q2": {
+              "spending": 9.424518570000002,
+              "beneficiaries": 11672
+            },
+            "q3": {
+              "spending": 9.50443972,
+              "beneficiaries": 10431
+            },
+            "q4": {
+              "spending": 7.832859449999996,
+              "beneficiaries": 10302
+            },
+            "q5_highest": {
+              "spending": 5.767323299999999,
+              "beneficiaries": 8088
+            }
+          }
+        }
+      },
+      "2023": {
+        "spending": 51.3,
+        "beneficiaries": 54904,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 27.38420059,
+              "beneficiaries": 29688
+            },
+            "male": {
+              "spending": 23.91241304,
+              "beneficiaries": 25216
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 2.37407115,
+              "beneficiaries": 4358
+            },
+            "25_to_44": {
+              "spending": 7.61744443,
+              "beneficiaries": 6932
+            },
+            "45_to_64": {
+              "spending": 11.82588898,
+              "beneficiaries": 10481
+            },
+            "65_and_older": {
+              "spending": 29.47920907,
+              "beneficiaries": 33133
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 29.48280303,
+              "beneficiaries": 31817
+            },
+            "rural": {
+              "spending": 21.65041296,
+              "beneficiaries": 22894
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 12.6688795,
+              "beneficiaries": 12139
+            },
+            "q2": {
+              "spending": 11.17166151,
+              "beneficiaries": 12257
+            },
+            "q3": {
+              "spending": 11.348511519999999,
+              "beneficiaries": 10861
+            },
+            "q4": {
+              "spending": 9.478748920000001,
+              "beneficiaries": 10867
+            },
+            "q5_highest": {
+              "spending": 6.459379459999999,
+              "beneficiaries": 8586
+            }
+          }
+        }
+      },
+      "2024": {
+        "spending": 61.28,
+        "beneficiaries": 56864,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 32.59347106000001,
+              "beneficiaries": 30618
+            },
+            "male": {
+              "spending": 28.68571097000001,
+              "beneficiaries": 26246
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 2.980751090000001,
+              "beneficiaries": 4626
+            },
+            "25_to_44": {
+              "spending": 8.712638290000001,
+              "beneficiaries": 7197
+            },
+            "45_to_64": {
+              "spending": 13.23961263999999,
+              "beneficiaries": 10843
+            },
+            "65_and_older": {
+              "spending": 36.34618001,
+              "beneficiaries": 34198
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 33.71043517999999,
+              "beneficiaries": 32996
+            },
+            "rural": {
+              "spending": 27.37809706000001,
+              "beneficiaries": 23686
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 15.18612914,
+              "beneficiaries": 12304
+            },
+            "q2": {
+              "spending": 13.5346052,
+              "beneficiaries": 12533
+            },
+            "q3": {
+              "spending": 13.34643026,
+              "beneficiaries": 11368
+            },
+            "q4": {
+              "spending": 11.34892827,
+              "beneficiaries": 11537
+            },
+            "q5_highest": {
+              "spending": 7.6664481099999975,
+              "beneficiaries": 8934
+            }
+          }
+        }
+      }
+    },
+    "YT": {
+      "2020": {
+        "spending": 11.85,
+        "beneficiaries": 8106,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 5.050734229999999,
+              "beneficiaries": 4125
+            },
+            "male": {
+              "spending": 6.7986011999999985,
+              "beneficiaries": 3981
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 0.6826986799999999,
+              "beneficiaries": 597
+            },
+            "25_to_44": {
+              "spending": 1.32493703,
+              "beneficiaries": 1098
+            },
+            "45_to_64": {
+              "spending": 3.248019249999999,
+              "beneficiaries": 1987
+            },
+            "65_and_older": {
+              "spending": 6.593680469999999,
+              "beneficiaries": 4424
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 9.123862019999997,
+              "beneficiaries": 6751
+            },
+            "rural": {
+              "spending": 2.6612667200000004,
+              "beneficiaries": 1292
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 3.06331439,
+              "beneficiaries": 1519
+            },
+            "q2": {
+              "spending": 2.5890749100000003,
+              "beneficiaries": 1460
+            },
+            "q3": {
+              "spending": 2.460269919999999,
+              "beneficiaries": 1907
+            },
+            "q4": {
+              "spending": 2.18527201,
+              "beneficiaries": 1812
+            },
+            "q5_highest": {
+              "spending": 1.40316046,
+              "beneficiaries": 1275
+            }
+          }
+        }
+      },
+      "2021": {
+        "spending": 12.31,
+        "beneficiaries": 10832,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 5.721512130000001,
+              "beneficiaries": 5722
+            },
+            "male": {
+              "spending": 6.591509069999999,
+              "beneficiaries": 5110
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 0.77013351,
+              "beneficiaries": 1009
+            },
+            "25_to_44": {
+              "spending": 1.36297204,
+              "beneficiaries": 1969
+            },
+            "45_to_64": {
+              "spending": 3.0401250899999996,
+              "beneficiaries": 2874
+            },
+            "65_and_older": {
+              "spending": 7.139790560000002,
+              "beneficiaries": 4980
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 9.70901436,
+              "beneficiaries": 9062
+            },
+            "rural": {
+              "spending": 2.4966633199999997,
+              "beneficiaries": 1697
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 2.81772207,
+              "beneficiaries": 1991
+            },
+            "q2": {
+              "spending": 2.50519288,
+              "beneficiaries": 1908
+            },
+            "q3": {
+              "spending": 2.84132309,
+              "beneficiaries": 2446
+            },
+            "q4": {
+              "spending": 2.47580772,
+              "beneficiaries": 2400
+            },
+            "q5_highest": {
+              "spending": 1.46529216,
+              "beneficiaries": 1931
+            }
+          }
+        }
+      },
+      "2022": {
+        "spending": 12.67,
+        "beneficiaries": 10862,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 6.10185434,
+              "beneficiaries": 5766
+            },
+            "male": {
+              "spending": 6.569701910000001,
+              "beneficiaries": 5096
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 1.023076,
+              "beneficiaries": 914
+            },
+            "25_to_44": {
+              "spending": 1.4557154100000012,
+              "beneficiaries": 1870
+            },
+            "45_to_64": {
+              "spending": 2.734317340000001,
+              "beneficiaries": 2866
+            },
+            "65_and_older": {
+              "spending": 7.4584475,
+              "beneficiaries": 5212
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 9.919339429999999,
+              "beneficiaries": 9033
+            },
+            "rural": {
+              "spending": 2.6785069900000003,
+              "beneficiaries": 1750
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 3.368144209999999,
+              "beneficiaries": 1979
+            },
+            "q2": {
+              "spending": 2.1796893200000023,
+              "beneficiaries": 1927
+            },
+            "q3": {
+              "spending": 2.85356539,
+              "beneficiaries": 2458
+            },
+            "q4": {
+              "spending": 2.58783998,
+              "beneficiaries": 2344
+            },
+            "q5_highest": {
+              "spending": 1.45949422,
+              "beneficiaries": 1978
+            }
+          }
+        }
+      },
+      "2023": {
+        "spending": 13.8,
+        "beneficiaries": 11328,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 6.42191235,
+              "beneficiaries": 6094
+            },
+            "male": {
+              "spending": 7.377015830000003,
+              "beneficiaries": 5234
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 1.2123063,
+              "beneficiaries": 917
+            },
+            "25_to_44": {
+              "spending": 1.494399440000002,
+              "beneficiaries": 2027
+            },
+            "45_to_64": {
+              "spending": 2.91889906,
+              "beneficiaries": 2904
+            },
+            "65_and_older": {
+              "spending": 8.173323380000001,
+              "beneficiaries": 5480
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 10.84028284,
+              "beneficiaries": 9414
+            },
+            "rural": {
+              "spending": 2.8768631,
+              "beneficiaries": 1832
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 3.645401270000002,
+              "beneficiaries": 2058
+            },
+            "q2": {
+              "spending": 2.36903855,
+              "beneficiaries": 2033
+            },
+            "q3": {
+              "spending": 2.983064750000001,
+              "beneficiaries": 2540
+            },
+            "q4": {
+              "spending": 2.908123,
+              "beneficiaries": 2433
+            },
+            "q5_highest": {
+              "spending": 1.67153801,
+              "beneficiaries": 2063
+            }
+          }
+        }
+      },
+      "2024": {
+        "spending": 15.82,
+        "beneficiaries": 13495,
+        "demographics": {
+          "sex": {
+            "female": {
+              "spending": 7.2223593500000005,
+              "beneficiaries": 7322
+            },
+            "male": {
+              "spending": 8.6003414,
+              "beneficiaries": 6173
+            }
+          },
+          "age": {
+            "under_25": {
+              "spending": 1.5265616000000002,
+              "beneficiaries": 1226
+            },
+            "25_to_44": {
+              "spending": 1.7693589500000009,
+              "beneficiaries": 2730
+            },
+            "45_to_64": {
+              "spending": 3.260531329999999,
+              "beneficiaries": 3654
+            },
+            "65_and_older": {
+              "spending": 9.266248870000002,
+              "beneficiaries": 5885
+            }
+          },
+          "geography": {
+            "urban": {
+              "spending": 12.64423953,
+              "beneficiaries": 11275
+            },
+            "rural": {
+              "spending": 3.0879555,
+              "beneficiaries": 2128
+            }
+          },
+          "income_quintile": {
+            "q1_lowest": {
+              "spending": 3.563539230000001,
+              "beneficiaries": 2425
+            },
+            "q2": {
+              "spending": 2.62081718,
+              "beneficiaries": 2303
+            },
+            "q3": {
+              "spending": 3.60882006,
+              "beneficiaries": 2966
+            },
+            "q4": {
+              "spending": 3.7513865099999997,
+              "beneficiaries": 2976
+            },
+            "q5_highest": {
+              "spending": 2.0538871000000003,
+              "beneficiaries": 2620
+            }
+          }
+        }
+      }
+    }
+  },
+  "nihb_data": {
+    "2020": {
+      "spending": 536.68,
+      "beneficiaries": 537600,
+      "claims_volume_millions": 31.73
+    },
+    "2021": {
+      "spending": 566.08,
+      "beneficiaries": 549537,
+      "claims_volume_millions": 31.19
+    },
+    "2022": {
+      "spending": 605.84,
+      "beneficiaries": 559355,
+      "claims_volume_millions": 30.49
+    },
+    "2023": {
+      "spending": 648.6,
+      "beneficiaries": 585116,
+      "claims_volume_millions": 29.5
+    },
+    "2024": {
+      "spending": 687.5,
+      "beneficiaries": 596000,
+      "claims_volume_millions": 28.5
+    },
+    "2025": {
+      "spending": 728.8,
+      "beneficiaries": 608000,
+      "claims_volume_millions": 27.5
+    }
+  }
+}

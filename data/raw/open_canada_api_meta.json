@@ -1,0 +1,599 @@
+[
+  {
+    "additional_notes": {
+      "fr": "",
+      "en": ""
+    },
+    "audience": [],
+    "author": null,
+    "author_email": null,
+    "collection": "publication",
+    "contributor": {
+      "fr": "",
+      "en": ""
+    },
+    "creator": "",
+    "creator_user_id": "2dc5a12f-2a6f-4822-8514-165ea6bb05d9",
+    "data_series_issue_identification": {
+      "fr": "",
+      "en": ""
+    },
+    "data_series_name": {
+      "fr": "",
+      "en": ""
+    },
+    "date_published": "2021-06-15 00:00:00",
+    "departmental_identification_number": "",
+    "digital_object_identifier": "",
+    "edition": "",
+    "frequency": "as_needed",
+    "gc_catalogue_number": "",
+    "geographic_region": [],
+    "id": "fc9c440c-f15c-4ddc-8b77-59e70237f85e",
+    "imso_approval": "true",
+    "isbn": "",
+    "isopen": false,
+    "issn": "",
+    "issuance": "",
+    "issuance_frequency": "",
+    "jurisdiction": "federal",
+    "keywords": {
+      "fr": [
+        "GUI-0029",
+        "validation des m\u00e9dicaments et des activit\u00e9s de soutien",
+        "qualifier correctement",
+        "valider les processus de fabrication des m\u00e9dicaments",
+        "valider les installations de fabrication des m\u00e9dicaments",
+        "valider les \u00e9quipements de fabrication des m\u00e9dicaments",
+        "m\u00e9thodes analytiques"
+      ],
+      "en": [
+        "GUI-0029",
+        "validation drugs-and-supporting activities",
+        "properly qualify",
+        "validate drug",
+        "manufacturing",
+        "processes",
+        "validate drug manufacturing-facilities",
+        "validate drug",
+        "manufacturing-equipment",
+        "analytical methods"
+      ]
+    },
+    "license_id": "ca-ogl-lgo",
+    "license_title": "Open Government Licence - Canada",
+    "license_url": "https://open.canada.ca/en/open-government-licence-canada",
+    "maintainer": null,
+    "metadata_created": "2023-02-27T21:38:55.457226",
+    "metadata_modified": "2023-02-27T21:38:55.457238",
+    "name": "fc9c440c-f15c-4ddc-8b77-59e70237f85e",
+    "notes": "This document is for anyone involved in the fabrication, packaging/labelling, testing, importation, distribution and wholesaling of drugs. It describes how to properly qualify and validate drug manufacturing processes, facilities, equipment, utilities and analytical methods. ",
+    "notes_translated": {
+      "fr": "Le pr\u00e9sent document s'adresse \u00e0 toute personne participant \u00e0 la fabrication, \u00e0 l'emballage ou \u00e0 l'\u00e9tiquetage, \u00e0 l'analyse, \u00e0 l'importation, \u00e0 la distribution et \u00e0 la vente en gros de drogues. Il d\u00e9crit comment qualifier et valider correctement les proc\u00e9d\u00e9s de fabrication de drogues, les installations, l'\u00e9quipement, les services publics et les m\u00e9thodes d'analyse.",
+      "en": "This document is for anyone involved in the fabrication, packaging/labelling, testing, importation, distribution and wholesaling of drugs. It describes how to properly qualify and validate drug manufacturing processes, facilities, equipment, utilities and analytical methods. "
+    },
+    "num_resources": 2,
+    "num_tags": 0,
+    "org_section": {
+      "fr": "",
+      "en": ""
+    },
+    "org_title_at_publication": {
+      "fr": "Sant\u00e9 Canada",
+      "en": "Health Canada"
+    },
+    "organization": {
+      "id": "BD26DB5E-82D2-42C1-99BB-08FCF6068FEE",
+      "name": "hc-sc",
+      "title": "Health Canada | Sant\u00e9 Canada",
+      "type": "organization",
+      "description": "",
+      "image_url": "",
+      "created": "2016-09-23T17:25:33.001625",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "BD26DB5E-82D2-42C1-99BB-08FCF6068FEE",
+    "place_of_publication": [],
+    "portal_release_date": "2023-02-27",
+    "private": false,
+    "program_page_url": {
+      "fr": "",
+      "en": ""
+    },
+    "pspc_identification_number": "",
+    "ready_to_publish": "true",
+    "restrictions": "unrestricted",
+    "series_publication_dates": {
+      "fr": "",
+      "en": ""
+    },
+    "spatial": "",
+    "state": "active",
+    "subject": [
+      "health_and_safety"
+    ],
+    "title": "Guide to validation \u2013 drugs and supporting activities (GUI-0029)",
+    "title_translated": {
+      "fr": "Guide sur la validation \u2013 drogues et activit\u00e9s de soutien (GUI-0029)",
+      "en": "Guide to validation \u2013 drugs and supporting activities (GUI-0029)"
+    },
+    "type": "info",
+    "url": null,
+    "version": null,
+    "resources": [
+      {
+        "cache_last_updated": null,
+        "cache_url": null,
+        "character_set": "",
+        "created": "2023-02-27T21:38:55.564278",
+        "datastore_active": false,
+        "datastore_contains_all_records_of_source_file": false,
+        "date_published": "",
+        "description": "",
+        "format": "HTML",
+        "hash": "",
+        "id": "f6ccd830-f086-4ede-84ca-9605a7e33044",
+        "language": [
+          "en"
+        ],
+        "last_modified": null,
+        "metadata_modified": "2023-02-27T21:38:55.564278",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "Guide to validation \u2013 drugs and supporting activities (GUI-0029)",
+        "name_translated": {
+          "fr": "Guide sur la validation \u2013 drogues et activit\u00e9s de soutien (GUI-0029)",
+          "en": "Guide to validation \u2013 drugs and supporting activities (GUI-0029)"
+        },
+        "package_id": "fc9c440c-f15c-4ddc-8b77-59e70237f85e",
+        "position": 0,
+        "related_relationship": null,
+        "related_type": null,
+        "resource_type": "publication",
+        "state": "active",
+        "unique_identifier": "",
+        "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/compliance-enforcement/good-manufacturing-practices/validation/validation-guidelines-pharmaceutical-dosage-forms-0029.html",
+        "url_type": null
+      },
+      {
+        "cache_last_updated": null,
+        "cache_url": null,
+        "character_set": "",
+        "created": "2023-02-27T21:38:55.564287",
+        "datastore_active": false,
+        "datastore_contains_all_records_of_source_file": false,
+        "date_published": "",
+        "description": "",
+        "format": "HTML",
+        "hash": "",
+        "id": "100ae5a7-963a-4d04-b240-8273c7d00ad8",
+        "language": [
+          "fr"
+        ],
+        "last_modified": null,
+        "metadata_modified": "2023-02-27T21:38:55.564287",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "Guide to validation \u2013 drugs and supporting activities (GUI-0029)",
+        "name_translated": {
+          "fr": "Guide sur la validation \u2013 drogues et activit\u00e9s de soutien (GUI-0029)",
+          "en": "Guide to validation \u2013 drugs and supporting activities (GUI-0029)"
+        },
+        "package_id": "fc9c440c-f15c-4ddc-8b77-59e70237f85e",
+        "position": 1,
+        "related_relationship": null,
+        "related_type": null,
+        "resource_type": "publication",
+        "state": "active",
+        "unique_identifier": "",
+        "url": "https://www.canada.ca/fr/sante-canada/services/medicaments-produits-sante/conformite-application-loi/bonnes-pratiques-fabrication/validation/directives-validation-formes-posologiques-pharmaceutiques-0029.html",
+        "url_type": null
+      }
+    ],
+    "tags": [],
+    "groups": [],
+    "relationships_as_subject": [],
+    "relationships_as_object": []
+  },
+  {
+    "additional_notes": {
+      "fr": "",
+      "en": ""
+    },
+    "audience": [],
+    "author": null,
+    "author_email": null,
+    "collection": "publication",
+    "contributor": {
+      "fr": "",
+      "en": ""
+    },
+    "creator": "",
+    "creator_user_id": "2dc5a12f-2a6f-4822-8514-165ea6bb05d9",
+    "data_series_issue_identification": {
+      "fr": "",
+      "en": ""
+    },
+    "data_series_name": {
+      "fr": "",
+      "en": ""
+    },
+    "date_published": "2021-06-15 00:00:00",
+    "departmental_identification_number": "",
+    "digital_object_identifier": "",
+    "edition": "",
+    "frequency": "as_needed",
+    "gc_catalogue_number": "",
+    "geographic_region": [],
+    "id": "5d9f8773-6f04-4b9b-8009-f3848042ec00",
+    "imso_approval": "true",
+    "isbn": "",
+    "isopen": false,
+    "issn": "",
+    "issuance": "",
+    "issuance_frequency": "",
+    "jurisdiction": "federal",
+    "keywords": {
+      "fr": [
+        "GUI-0029",
+        "validation des m\u00e9dicaments et des activit\u00e9s de soutien",
+        "qualifier correctement",
+        "valider les processus de fabrication des m\u00e9dicaments",
+        "valider les installations de fabrication des m\u00e9dicaments",
+        "valider les \u00e9quipements de fabrication des m\u00e9dicaments",
+        "m\u00e9thodes analytiques",
+        "r\u00e9sum\u00e9"
+      ],
+      "en": [
+        "GUI-0029",
+        "validation",
+        "drugs-and-supporting",
+        "activities",
+        "properly qualify",
+        "validate",
+        "drug manufacturing-processes",
+        "validate",
+        "drug",
+        "manufacturing-facilities",
+        "validate drug manufacturing-equipment",
+        "analytical methods",
+        "summary"
+      ]
+    },
+    "license_id": "ca-ogl-lgo",
+    "license_title": "Open Government Licence - Canada",
+    "license_url": "https://open.canada.ca/en/open-government-licence-canada",
+    "maintainer": null,
+    "metadata_created": "2023-02-27T21:38:52.328305",
+    "metadata_modified": "2023-02-27T21:38:52.328316",
+    "name": "5d9f8773-6f04-4b9b-8009-f3848042ec00",
+    "notes": "This document is for anyone involved in the fabrication, packaging/labelling, testing, importation, distribution and wholesaling of drugs. It describes how to properly qualify and validate drug manufacturing processes, facilities, equipment, utilities and analytical methods. ",
+    "notes_translated": {
+      "fr": "Le pr\u00e9sent document s'adresse \u00e0 toute personne participant \u00e0 la fabrication, \u00e0 l'emballage ou \u00e0 l'\u00e9tiquetage, \u00e0 l'analyse, \u00e0 l'importation, \u00e0 la distribution et \u00e0 la vente en gros de drogues. Il d\u00e9crit comment qualifier et valider correctement les proc\u00e9d\u00e9s de fabrication de drogues, les installations, l'\u00e9quipement, les services publics et les m\u00e9thodes d'analyse.",
+      "en": "This document is for anyone involved in the fabrication, packaging/labelling, testing, importation, distribution and wholesaling of drugs. It describes how to properly qualify and validate drug manufacturing processes, facilities, equipment, utilities and analytical methods. "
+    },
+    "num_resources": 2,
+    "num_tags": 0,
+    "org_section": {
+      "fr": "",
+      "en": ""
+    },
+    "org_title_at_publication": {
+      "fr": "Sant\u00e9 Canada",
+      "en": "Health Canada"
+    },
+    "organization": {
+      "id": "BD26DB5E-82D2-42C1-99BB-08FCF6068FEE",
+      "name": "hc-sc",
+      "title": "Health Canada | Sant\u00e9 Canada",
+      "type": "organization",
+      "description": "",
+      "image_url": "",
+      "created": "2016-09-23T17:25:33.001625",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "BD26DB5E-82D2-42C1-99BB-08FCF6068FEE",
+    "place_of_publication": [],
+    "portal_release_date": "2023-02-27",
+    "private": false,
+    "program_page_url": {
+      "fr": "",
+      "en": ""
+    },
+    "pspc_identification_number": "",
+    "ready_to_publish": "true",
+    "restrictions": "unrestricted",
+    "series_publication_dates": {
+      "fr": "",
+      "en": ""
+    },
+    "spatial": "",
+    "state": "active",
+    "subject": [
+      "health_and_safety"
+    ],
+    "title": "Guide to validation \u2013 drugs and supporting activities (GUI-0029) - Summary",
+    "title_translated": {
+      "fr": "Guide sur la validation \u2013 drogues et activit\u00e9s de soutien (GUI-0029)",
+      "en": "Guide to validation \u2013 drugs and supporting activities (GUI-0029) - Summary"
+    },
+    "type": "info",
+    "url": null,
+    "version": null,
+    "resources": [
+      {
+        "cache_last_updated": null,
+        "cache_url": null,
+        "character_set": "",
+        "created": "2023-02-27T21:38:52.449102",
+        "datastore_active": false,
+        "datastore_contains_all_records_of_source_file": false,
+        "date_published": "",
+        "description": "",
+        "format": "HTML",
+        "hash": "",
+        "id": "4cfa9ce1-b9a3-4a0e-ae41-7d92a50e28dc",
+        "language": [
+          "en"
+        ],
+        "last_modified": null,
+        "metadata_modified": "2023-02-27T21:38:52.449102",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "Guide to validation \u2013 drugs and supporting activities (GUI-0029) - Summary",
+        "name_translated": {
+          "fr": "Guide sur la validation \u2013 drogues et activit\u00e9s de soutien (GUI-0029)",
+          "en": "Guide to validation \u2013 drugs and supporting activities (GUI-0029) - Summary"
+        },
+        "package_id": "5d9f8773-6f04-4b9b-8009-f3848042ec00",
+        "position": 0,
+        "related_relationship": null,
+        "related_type": null,
+        "resource_type": "publication",
+        "state": "active",
+        "unique_identifier": "",
+        "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/compliance-enforcement/good-manufacturing-practices/validation/validation-guidelines-pharmaceutical-dosage-forms-0029.html#purpose",
+        "url_type": null
+      },
+      {
+        "cache_last_updated": null,
+        "cache_url": null,
+        "character_set": "",
+        "created": "2023-02-27T21:38:52.449113",
+        "datastore_active": false,
+        "datastore_contains_all_records_of_source_file": false,
+        "date_published": "",
+        "description": "",
+        "format": "HTML",
+        "hash": "",
+        "id": "627a5734-dd48-4741-8875-a3c3029899e9",
+        "language": [
+          "fr"
+        ],
+        "last_modified": null,
+        "metadata_modified": "2023-02-27T21:38:52.449113",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "Guide to validation \u2013 drugs and supporting activities (GUI-0029) - Summary",
+        "name_translated": {
+          "fr": "Guide sur la validation \u2013 drogues et activit\u00e9s de soutien (GUI-0029)",
+          "en": "Guide to validation \u2013 drugs and supporting activities (GUI-0029) - Summary"
+        },
+        "package_id": "5d9f8773-6f04-4b9b-8009-f3848042ec00",
+        "position": 1,
+        "related_relationship": null,
+        "related_type": null,
+        "resource_type": "publication",
+        "state": "active",
+        "unique_identifier": "",
+        "url": "https://www.canada.ca/fr/sante-canada/services/medicaments-produits-sante/conformite-application-loi/bonnes-pratiques-fabrication/validation/directives-validation-formes-posologiques-pharmaceutiques-0029.html",
+        "url_type": null
+      }
+    ],
+    "tags": [],
+    "groups": [],
+    "relationships_as_subject": [],
+    "relationships_as_object": []
+  },
+  {
+    "additional_notes": {
+      "fr": "",
+      "en": ""
+    },
+    "audience": [],
+    "author": null,
+    "author_email": null,
+    "collection": "publication",
+    "contributor": {
+      "fr": "",
+      "en": ""
+    },
+    "creator": "",
+    "creator_user_id": "2dc5a12f-2a6f-4822-8514-165ea6bb05d9",
+    "data_series_issue_identification": {
+      "fr": "",
+      "en": ""
+    },
+    "data_series_name": {
+      "fr": "",
+      "en": ""
+    },
+    "date_published": "2018-08-21 00:00:00",
+    "departmental_identification_number": "",
+    "digital_object_identifier": "",
+    "edition": "",
+    "frequency": "as_needed",
+    "gc_catalogue_number": "",
+    "geographic_region": [],
+    "id": "884612b3-7cfb-4ad8-a603-c6a47a6810fd",
+    "imso_approval": "true",
+    "isbn": "",
+    "isopen": false,
+    "issn": "",
+    "issuance": "",
+    "issuance_frequency": "",
+    "jurisdiction": "federal",
+    "keywords": {
+      "fr": [
+        "phase III",
+        "initiatives de transparence avant la commercialisation",
+        "m\u00e9dicaments sur ordonnance",
+        "r\u00e9gulateur",
+        "transparent et ouvert",
+        "produits de sant\u00e9",
+        "soumissions de produits de sant\u00e9",
+        "plus de transparence et d'ouverture",
+        "confiance dans les d\u00e9cisions r\u00e9glementaires",
+        "prendre de meilleures d\u00e9cisions"
+      ],
+      "en": [
+        "phase III",
+        "pre-market transparency initiatives",
+        "prescription drugs",
+        "regulator",
+        "transparent and open",
+        "health products",
+        "health product submissions",
+        "greater transparency-and-openness",
+        "trust in regulatory-decisions",
+        "making better decisions"
+      ]
+    },
+    "license_id": "ca-ogl-lgo",
+    "license_title": "Open Government Licence - Canada",
+    "license_url": "https://open.canada.ca/en/open-government-licence-canada",
+    "maintainer": null,
+    "metadata_created": "2023-12-22T14:13:06.121879",
+    "metadata_modified": "2023-12-24T14:10:52.869946",
+    "name": "884612b3-7cfb-4ad8-a603-c6a47a6810fd",
+    "notes": "As a regulator, Health Canada plays an important role in protecting the health and safety of Canadians. Health Canada is committed to being transparent and open about its activities and to making timely and useful information available about health products and health product submissions. Greater transparency and openness with Canadians strengthens the trust in our regulatory decisions, and ultimately supports Canadians in making better decisions about their health.",
+    "notes_translated": {
+      "fr": "\u00c0 titre d'organisme de r\u00e9glementation, Sant\u00e9 Canada joue un r\u00f4le important dans la protection de la sant\u00e9 et de la s\u00e9curit\u00e9 des Canadiens. Sant\u00e9 Canada est d\u00e9termin\u00e9 \u00e0 faire preuve de transparence et d'ouverture \u00e0 propos de ses activit\u00e9s et \u00e0 rendre accessibles, en temps opportun, les renseignements utiles en mati\u00e8re de produits de sant\u00e9 et de pr\u00e9sentations s'y rapportant. Un niveau accru de transparence et d'ouverture \u00e0 l'\u00e9gard des Canadiens renforce la confiance dans nos d\u00e9cisions r\u00e9glementaires, et aide par la suite les Canadiens \u00e0 prendre de meilleures d\u00e9cisions quant \u00e0 leur sant\u00e9.",
+      "en": "As a regulator, Health Canada plays an important role in protecting the health and safety of Canadians. Health Canada is committed to being transparent and open about its activities and to making timely and useful information available about health products and health product submissions. Greater transparency and openness with Canadians strengthens the trust in our regulatory decisions, and ultimately supports Canadians in making better decisions about their health."
+    },
+    "num_resources": 2,
+    "num_tags": 0,
+    "org_section": {
+      "fr": "",
+      "en": ""
+    },
+    "org_title_at_publication": {
+      "fr": "Sant\u00e9 Canada",
+      "en": "Health Canada"
+    },
+    "organization": {
+      "id": "BD26DB5E-82D2-42C1-99BB-08FCF6068FEE",
+      "name": "hc-sc",
+      "title": "Health Canada | Sant\u00e9 Canada",
+      "type": "organization",
+      "description": "",
+      "image_url": "",
+      "created": "2016-09-23T17:25:33.001625",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "BD26DB5E-82D2-42C1-99BB-08FCF6068FEE",
+    "place_of_publication": [],
+    "portal_release_date": "2023-12-22",
+    "private": false,
+    "program_page_url": {
+      "fr": "",
+      "en": ""
+    },
+    "pspc_identification_number": "",
+    "ready_to_publish": "true",
+    "restrictions": "unrestricted",
+    "series_publication_dates": {
+      "fr": "",
+      "en": ""
+    },
+    "spatial": "",
+    "state": "active",
+    "subject": [
+      "health_and_safety"
+    ],
+    "title": "Notice: Phase III of Pre-Market Transparency Initiatives for Prescription Drugs",
+    "title_translated": {
+      "fr": "Avis : Phase III des initiatives visant \u00e0 augmenter la transparence avant la mise en march\u00e9 des m\u00e9dicaments d'ordonnance",
+      "en": "Notice: Phase III of Pre-Market Transparency Initiatives for Prescription Drugs"
+    },
+    "type": "info",
+    "url": null,
+    "version": null,
+    "resources": [
+      {
+        "cache_last_updated": null,
+        "cache_url": null,
+        "character_set": "",
+        "created": "2023-12-22T14:13:06.133192",
+        "datastore_active": false,
+        "datastore_contains_all_records_of_source_file": false,
+        "date_published": "",
+        "description": null,
+        "format": "HTML",
+        "hash": "",
+        "id": "aec858dd-c450-4edc-b51e-705ee7e31aef",
+        "language": [
+          "en"
+        ],
+        "last_modified": null,
+        "metadata_modified": "2023-12-24T14:10:52.890851",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "Notice: Phase III of Pre-Market Transparency Initiatives for Prescription Drugs",
+        "name_translated": {
+          "fr": "Avis : Phase III des initiatives visant \u00e0 augmenter la transparence avant la mise en march\u00e9 des m\u00e9dicaments d'ordonnance",
+          "en": "Notice: Phase III of Pre-Market Transparency Initiatives for Prescription Drugs"
+        },
+        "package_id": "884612b3-7cfb-4ad8-a603-c6a47a6810fd",
+        "position": 0,
+        "resource_type": "publication",
+        "state": "active",
+        "unique_identifier": "",
+        "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/announcements/premarket-transparency-initiatives-notice.html",
+        "url_type": ""
+      },
+      {
+        "cache_last_updated": null,
+        "cache_url": null,
+        "character_set": "",
+        "created": "2023-12-22T14:13:06.133202",
+        "datastore_active": false,
+        "datastore_contains_all_records_of_source_file": false,
+        "date_published": "",
+        "description": null,
+        "format": "HTML",
+        "hash": "",
+        "id": "c33af293-5526-48d2-a9d3-fbb28cc631cd",
+        "language": [
+          "fr"
+        ],
+        "last_modified": null,
+        "metadata_modified": "2023-12-24T14:10:52.891095",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "Notice: Phase III of Pre-Market Transparency Initiatives for Prescription Drugs",
+        "name_translated": {
+          "fr": "Avis : Phase III des initiatives visant \u00e0 augmenter la transparence avant la mise en march\u00e9 des m\u00e9dicaments d'ordonnance",
+          "en": "Notice: Phase III of Pre-Market Transparency Initiatives for Prescription Drugs"
+        },
+        "package_id": "884612b3-7cfb-4ad8-a603-c6a47a6810fd",
+        "position": 1,
+        "resource_type": "publication",
+        "state": "active",
+        "unique_identifier": "",
+        "url": "https://www.canada.ca/fr/sante-canada/services/medicaments-produits-sante/medicaments/annonces/initiatives-transparence-avant-marche-avis.html",
+        "url_type": ""
+      }
+    ],
+    "tags": [],
+    "groups": [],
+    "relationships_as_subject": [],
+    "relationships_as_object": []
+  }
+]
