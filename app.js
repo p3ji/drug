@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const tabContents = document.querySelectorAll('.tab-content');
     const drugSelect = document.getElementById('drug-select');
     const provinceSelect = document.getElementById('province-select');
-    const provinceSelect = document.getElementById('province-select');
     const annualIndicatorSelect = document.getElementById('annual-indicator-select');
 
     // KPI Elements
