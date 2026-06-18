@@ -20,7 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const tabContents = document.querySelectorAll('.tab-content');
     const drugSelect = document.getElementById('drug-select');
     const provinceSelect = document.getElementById('province-select');
-    const annualYearSelect = document.getElementById('annual-year-select');
+    const provinceSelect = document.getElementById('province-select');
+    const annualIndicatorSelect = document.getElementById('annual-indicator-select');
 
     // KPI Elements
     const kpiAtc = document.getElementById('kpi-atc');
@@ -109,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
             updateDrugSpecificSection();
             updateAnnualSummary();
         });
-        annualYearSelect.addEventListener('change', updateAnnualSummary);
+        annualIndicatorSelect.addEventListener('change', updateAnnualSummary);
 
         buildQualityTable(jurisdictions);
         
@@ -294,85 +295,86 @@ document.addEventListener('DOMContentLoaded', () => {
     function updateAnnualSummary() {
         if (!appData) return;
         const provCode = provinceSelect.value;
-        const year = annualYearSelect.value;
+        const indicator = annualIndicatorSelect.value; // 'spending' or 'beneficiaries'
+        const years = ['2020', '2021', '2022', '2023', '2024'];
+        const latestYear = '2024';
         
-        let spending = 0;
-        let beneficiaries = 0;
-        let demo = null; // We only show demographics if a specific province is selected, or we aggregate
+        let latestSpending = 0;
+        let latestBeneficiaries = 0;
 
-        // We can aggregate national totals if needed
-        if (provCode === 'ALL') {
-            Object.values(appData.plan_overview).forEach(pData => {
-                if (pData[year]) {
-                    spending += pData[year].spending;
-                    beneficiaries += pData[year].beneficiaries;
-                }
-            });
-            // Demographics aggregation could be done, but for simplicity we'll just show N/A for National Demographics right now
-            // or we can write an aggregator. Let's write a quick aggregator.
-            demo = { sex: { female: 0, male: 0 }, age: { under_25: 0, "25_to_44": 0, "45_to_64": 0, "65_and_older": 0 }, geography: { urban: 0, rural: 0 }, income_quintile: { q1_lowest: 0, q2: 0, q3: 0, q4: 0, q5_highest: 0 } };
-            
-            Object.values(appData.plan_overview).forEach(pData => {
-                if (pData[year] && pData[year].demographics) {
-                    const d = pData[year].demographics;
-                    demo.sex.female += d.sex.female.spending; demo.sex.male += d.sex.male.spending;
-                    demo.age.under_25 += d.age.under_25.spending; demo.age["25_to_44"] += d.age["25_to_44"].spending;
-                    demo.age["45_to_64"] += d.age["45_to_64"].spending; demo.age["65_and_older"] += d.age["65_and_older"].spending;
-                    demo.geography.urban += d.geography.urban.spending; demo.geography.rural += d.geography.rural.spending;
-                    demo.income_quintile.q1_lowest += d.income_quintile.q1_lowest.spending; demo.income_quintile.q2 += d.income_quintile.q2.spending;
-                    demo.income_quintile.q3 += d.income_quintile.q3.spending; demo.income_quintile.q4 += d.income_quintile.q4.spending;
-                    demo.income_quintile.q5_highest += d.income_quintile.q5_highest.spending;
-                }
-            });
+        let demoSeries = {
+            sex: { female: [], male: [] },
+            age: { under_25: [], "25_to_44": [], "45_to_64": [], "65_and_older": [] },
+            geography: { urban: [], rural: [] },
+            income: { q1_lowest: [], q2: [], q3: [], q4: [], q5_highest: [] }
+        };
 
-        } else {
-            const pData = appData.plan_overview[provCode] ? appData.plan_overview[provCode][year] : null;
-            if (pData) {
-                spending = pData.spending;
-                beneficiaries = pData.beneficiaries;
-                // Just map spending for the pie charts
-                if (pData.demographics) {
-                    demo = {
-                        sex: { female: pData.demographics.sex.female.spending, male: pData.demographics.sex.male.spending },
-                        age: { under_25: pData.demographics.age.under_25.spending, "25_to_44": pData.demographics.age["25_to_44"].spending, "45_to_64": pData.demographics.age["45_to_64"].spending, "65_and_older": pData.demographics.age["65_and_older"].spending },
-                        geography: { urban: pData.demographics.geography.urban.spending, rural: pData.demographics.geography.rural.spending },
-                        income_quintile: { q1_lowest: pData.demographics.income_quintile.q1_lowest.spending, q2: pData.demographics.income_quintile.q2.spending, q3: pData.demographics.income_quintile.q3.spending, q4: pData.demographics.income_quintile.q4.spending, q5_highest: pData.demographics.income_quintile.q5_highest.spending }
-                    };
+        const pubSp = [];
+        const pubBen = [];
+
+        years.forEach(yr => {
+            let s = 0, b = 0;
+            let d_sex = { female: 0, male: 0 };
+            let d_age = { under_25: 0, "25_to_44": 0, "45_to_64": 0, "65_and_older": 0 };
+            let d_geo = { urban: 0, rural: 0 };
+            let d_inc = { q1_lowest: 0, q2: 0, q3: 0, q4: 0, q5_highest: 0 };
+
+            if (provCode === 'ALL') {
+                Object.values(appData.plan_overview).forEach(pData => {
+                    if (pData[yr]) { 
+                        s += pData[yr].spending; b += pData[yr].beneficiaries; 
+                        if (pData[yr].demographics) {
+                            const d = pData[yr].demographics;
+                            d_sex.female += d.sex.female[indicator]; d_sex.male += d.sex.male[indicator];
+                            d_age.under_25 += d.age.under_25[indicator]; d_age["25_to_44"] += d.age["25_to_44"][indicator];
+                            d_age["45_to_64"] += d.age["45_to_64"][indicator]; d_age["65_and_older"] += d.age["65_and_older"][indicator];
+                            d_geo.urban += d.geography.urban[indicator]; d_geo.rural += d.geography.rural[indicator];
+                            d_inc.q1_lowest += d.income_quintile.q1_lowest[indicator]; d_inc.q2 += d.income_quintile.q2[indicator];
+                            d_inc.q3 += d.income_quintile.q3[indicator]; d_inc.q4 += d.income_quintile.q4[indicator];
+                            d_inc.q5_highest += d.income_quintile.q5_highest[indicator];
+                        }
+                    }
+                });
+            } else {
+                if (appData.plan_overview[provCode] && appData.plan_overview[provCode][yr]) {
+                    const pDataYr = appData.plan_overview[provCode][yr];
+                    s = pDataYr.spending; b = pDataYr.beneficiaries;
+                    if (pDataYr.demographics) {
+                        const d = pDataYr.demographics;
+                        d_sex.female += d.sex.female[indicator]; d_sex.male += d.sex.male[indicator];
+                        d_age.under_25 += d.age.under_25[indicator]; d_age["25_to_44"] += d.age["25_to_44"][indicator];
+                        d_age["45_to_64"] += d.age["45_to_64"][indicator]; d_age["65_and_older"] += d.age["65_and_older"][indicator];
+                        d_geo.urban += d.geography.urban[indicator]; d_geo.rural += d.geography.rural[indicator];
+                        d_inc.q1_lowest += d.income_quintile.q1_lowest[indicator]; d_inc.q2 += d.income_quintile.q2[indicator];
+                        d_inc.q3 += d.income_quintile.q3[indicator]; d_inc.q4 += d.income_quintile.q4[indicator];
+                        d_inc.q5_highest += d.income_quintile.q5_highest[indicator];
+                    }
                 }
             }
-        }
 
-        document.getElementById('annual-spending').textContent = formatCurrency(spending);
-        document.getElementById('annual-beneficiaries').textContent = formatPeople(beneficiaries);
+            pubSp.push(s); pubBen.push(b);
+            if (yr === latestYear) { latestSpending = s; latestBeneficiaries = b; }
+
+            demoSeries.sex.female.push(d_sex.female); demoSeries.sex.male.push(d_sex.male);
+            demoSeries.age.under_25.push(d_age.under_25); demoSeries.age["25_to_44"].push(d_age["25_to_44"]);
+            demoSeries.age["45_to_64"].push(d_age["45_to_64"]); demoSeries.age["65_and_older"].push(d_age["65_and_older"]);
+            demoSeries.geography.urban.push(d_geo.urban); demoSeries.geography.rural.push(d_geo.rural);
+            demoSeries.income.q1_lowest.push(d_inc.q1_lowest); demoSeries.income.q2.push(d_inc.q2);
+            demoSeries.income.q3.push(d_inc.q3); demoSeries.income.q4.push(d_inc.q4); demoSeries.income.q5_highest.push(d_inc.q5_highest);
+        });
+
+        document.getElementById('annual-spending').textContent = formatCurrency(latestSpending);
+        document.getElementById('annual-beneficiaries').textContent = formatPeople(latestBeneficiaries);
         
         const perClientEl = document.getElementById('annual-per-client-spending');
-        if (spending > 0 && beneficiaries > 0) {
-            perClientEl.textContent = `$${((spending * 1000000) / beneficiaries).toFixed(2)}`;
+        if (latestSpending > 0 && latestBeneficiaries > 0) {
+            perClientEl.textContent = `$${((latestSpending * 1000000) / latestBeneficiaries).toFixed(2)}`;
         } else {
             perClientEl.textContent = 'N/A';
         }
 
-        // Line Chart Update
-        const years = ['2020', '2021', '2022', '2023', '2024'];
-        const pubSp = [];
-        const pubBen = [];
-        years.forEach(yr => {
-            let s = 0, b = 0;
-            if (provCode === 'ALL') {
-                Object.values(appData.plan_overview).forEach(pData => {
-                    if (pData[yr]) { s += pData[yr].spending; b += pData[yr].beneficiaries; }
-                });
-            } else {
-                if (appData.plan_overview[provCode] && appData.plan_overview[provCode][yr]) {
-                    s = appData.plan_overview[provCode][yr].spending;
-                    b = appData.plan_overview[provCode][yr].beneficiaries;
-                }
-            }
-            pubSp.push(s); pubBen.push(b);
-        });
-
         renderAnnualChart(years, pubSp, pubBen);
-        renderDemographics(demo);
+        renderDemographics(demoSeries, years, indicator);
     }
 
     function renderAnnualChart(years, spending, patients) {
@@ -413,33 +415,29 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    function renderDemographics(demo) {
-        const createBarChart = (ctxId, instance, labels, data, colors, title) => {
+    function renderDemographics(demo, years, indicator) {
+        const createLineChart = (ctxId, instance, datasets, title) => {
             const ctx = document.getElementById(ctxId).getContext('2d');
             if (instance) instance.destroy();
             return new Chart(ctx, {
-                type: 'bar',
+                type: 'line',
                 data: {
-                    labels: labels,
-                    datasets: [{
-                        data: data, 
-                        backgroundColor: colors, 
-                        borderRadius: 4
-                    }]
+                    labels: years,
+                    datasets: datasets
                 },
                 options: {
                     responsive: true, 
                     maintainAspectRatio: false, 
-                    indexAxis: 'y', // Horizontal bar chart
                     scales: {
-                        x: { display: false },
+                        x: { grid: { color: 'rgba(255, 255, 255, 0.04)' }, ticks: { color: '#9ca3af', font: {size: 10} } },
                         y: { 
-                            grid: { display: false },
-                            ticks: { color: '#9ca3af', font: { family: 'Inter', size: 10 } }
+                            grid: { color: 'rgba(255, 255, 255, 0.04)' },
+                            ticks: { color: '#9ca3af', font: { family: 'Inter', size: 10 } },
+                            beginAtZero: true
                         }
                     },
                     plugins: {
-                        legend: { display: false },
+                        legend: { display: true, position: 'bottom', labels: {color: '#9ca3af', boxWidth: 10, font: {size: 10}} },
                         title: { display: true, text: title, color: '#e5e7eb', font: {family: 'Inter', size: 11} },
                         tooltip: {
                             callbacks: {
@@ -448,12 +446,20 @@ document.addEventListener('DOMContentLoaded', () => {
                                     if (label) {
                                         label += ': ';
                                     }
-                                    if (context.parsed.x !== null) {
-                                        let val = context.parsed.x;
-                                        if (val >= 1000) {
-                                            label += '$' + (val / 1000).toFixed(2) + 'B';
+                                    if (context.parsed.y !== null) {
+                                        let val = context.parsed.y;
+                                        if (indicator === 'spending') {
+                                            if (val >= 1000) {
+                                                label += '$' + (val / 1000).toFixed(2) + 'B';
+                                            } else {
+                                                label += '$' + val.toFixed(1) + 'M';
+                                            }
                                         } else {
-                                            label += '$' + val.toFixed(1) + 'M';
+                                            if (val >= 1000000) {
+                                                label += (val / 1000000).toFixed(2) + 'M people';
+                                            } else {
+                                                label += val.toLocaleString() + ' people';
+                                            }
                                         }
                                     }
                                     return label;
@@ -465,30 +471,34 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         };
 
-        if (!demo) {
-            demoSexChartInstance = createBarChart('demoSexChart', demoSexChartInstance, ['N/A'], [1], ['#1e293b'], 'By Sex');
-            demoAgeChartInstance = createBarChart('demoAgeChart', demoAgeChartInstance, ['N/A'], [1], ['#1e293b'], 'By Age');
-            demoGeoChartInstance = createBarChart('demoGeoChart', demoGeoChartInstance, ['N/A'], [1], ['#1e293b'], 'By Geography');
-            demoIncomeChartInstance = createBarChart('demoIncomeChart', demoIncomeChartInstance, ['N/A'], [1], ['#1e293b'], 'By Income');
-            return;
-        }
+        if (!demo) return;
 
-        demoSexChartInstance = createBarChart('demoSexChart', demoSexChartInstance, 
-            ['Female', 'Male'], [demo.sex.female, demo.sex.male], 
-            ['#bf5af2', '#3b82f6'], 'By Sex');
+        const lineOptions = { tension: 0.3, borderWidth: 2, pointRadius: 2, fill: false };
 
-        demoAgeChartInstance = createBarChart('demoAgeChart', demoAgeChartInstance, 
-            ['<25', '25-44', '45-64', '65+'], [demo.age.under_25, demo.age["25_to_44"], demo.age["45_to_64"], demo.age["65_and_older"]], 
-            ['#00f2fe', '#0ea5e9', '#6366f1', '#a855f7'], 'By Age');
+        demoSexChartInstance = createLineChart('demoSexChart', demoSexChartInstance, [
+            { label: 'Female', data: demo.sex.female, borderColor: '#bf5af2', backgroundColor: '#bf5af2', ...lineOptions },
+            { label: 'Male', data: demo.sex.male, borderColor: '#3b82f6', backgroundColor: '#3b82f6', ...lineOptions }
+        ], 'By Sex');
 
-        demoGeoChartInstance = createBarChart('demoGeoChart', demoGeoChartInstance, 
-            ['Urban', 'Rural'], [demo.geography.urban, demo.geography.rural], 
-            ['#10b981', '#f59e0b'], 'By Geography');
+        demoAgeChartInstance = createLineChart('demoAgeChart', demoAgeChartInstance, [
+            { label: '<25', data: demo.age.under_25, borderColor: '#00f2fe', backgroundColor: '#00f2fe', ...lineOptions },
+            { label: '25-44', data: demo.age["25_to_44"], borderColor: '#0ea5e9', backgroundColor: '#0ea5e9', ...lineOptions },
+            { label: '45-64', data: demo.age["45_to_64"], borderColor: '#6366f1', backgroundColor: '#6366f1', ...lineOptions },
+            { label: '65+', data: demo.age["65_and_older"], borderColor: '#a855f7', backgroundColor: '#a855f7', ...lineOptions }
+        ], 'By Age');
 
-        demoIncomeChartInstance = createBarChart('demoIncomeChart', demoIncomeChartInstance, 
-            ['Q1 (Lowest)', 'Q2', 'Q3', 'Q4', 'Q5 (Highest)'], 
-            [demo.income_quintile.q1_lowest, demo.income_quintile.q2, demo.income_quintile.q3, demo.income_quintile.q4, demo.income_quintile.q5_highest], 
-            ['#ef4444', '#f97316', '#eab308', '#22c55e', '#14b8a6'], 'By Income Quintile');
+        demoGeoChartInstance = createLineChart('demoGeoChart', demoGeoChartInstance, [
+            { label: 'Urban', data: demo.geography.urban, borderColor: '#10b981', backgroundColor: '#10b981', ...lineOptions },
+            { label: 'Rural', data: demo.geography.rural, borderColor: '#f59e0b', backgroundColor: '#f59e0b', ...lineOptions }
+        ], 'By Geography');
+
+        demoIncomeChartInstance = createLineChart('demoIncomeChart', demoIncomeChartInstance, [
+            { label: 'Q1 (Lowest)', data: demo.income.q1_lowest, borderColor: '#ef4444', backgroundColor: '#ef4444', ...lineOptions },
+            { label: 'Q2', data: demo.income.q2, borderColor: '#f97316', backgroundColor: '#f97316', ...lineOptions },
+            { label: 'Q3', data: demo.income.q3, borderColor: '#eab308', backgroundColor: '#eab308', ...lineOptions },
+            { label: 'Q4', data: demo.income.q4, borderColor: '#22c55e', backgroundColor: '#22c55e', ...lineOptions },
+            { label: 'Q5 (Highest)', data: demo.income.q5_highest, borderColor: '#14b8a6', backgroundColor: '#14b8a6', ...lineOptions }
+        ], 'By Income Quintile');
     }
 
     // 6. Section 3: NIHB

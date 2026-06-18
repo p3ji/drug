@@ -206,13 +206,10 @@
                             <p class="chart-subtitle">Overall public drug plan spending, beneficiaries, and private sector estimates — not drug-specific</p>
                         </div>
                         <div class="year-selector-group">
-                            <label for="annual-year-select"><i class="fa-solid fa-calendar-days"></i> Reporting Year</label>
-                            <select id="annual-year-select" class="custom-select small-select">
-                                <option value="2024" selected>2024 (Audited/Latest)</option>
-                                <option value="2023">2023 (Audited)</option>
-                                <option value="2022">2022 (Audited)</option>
-                                <option value="2021">2021 (Audited)</option>
-                                <option value="2020">2020 (Audited)</option>
+                            <label for="annual-indicator-select"><i class="fa-solid fa-filter"></i> Demographic Indicator</label>
+                            <select id="annual-indicator-select" class="custom-select small-select">
+                                <option value="beneficiaries" selected>Active Beneficiaries (Claimants)</option>
+                                <option value="spending">Public Spending (CAD)</option>
                             </select>
                         </div>
                     </div>
@@ -245,7 +242,7 @@
                     
                     <!-- Demographics Grid -->
                     <div class="demographics-section" style="margin-top: 20px; padding-top: 20px; border-top: 1px solid var(--border-color);">
-                        <h4 style="margin-bottom: 16px; font-weight: 500; font-size: 0.9rem; color: var(--text-secondary);">Beneficiary Demographics (Share of Spending)</h4>
+                        <h4 style="margin-bottom: 16px; font-weight: 500; font-size: 0.9rem; color: var(--text-secondary);">Beneficiary Demographics (5-Year Trend)</h4>
                         <div class="charts-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
                             <div class="chart-body" style="height: 240px; position: relative;"><canvas id="demoSexChart"></canvas></div>
                             <div class="chart-body" style="height: 240px; position: relative;"><canvas id="demoAgeChart"></canvas></div>
